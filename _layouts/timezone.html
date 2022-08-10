@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+  <style>
+    
+  </style>
+</head>
+<body>
+  {% include header.html %}
+  <article>
+    <h1>{{page.title}}</h1>
+    <p id="loc">{{post.loc}}</p>
+    {{content}}
+  </article>
+  {% include footer.html %}
+
+  <script>
+    const loc = document.querySelector('#loc');
+
+    const option = {
+      timeZoneName: 'short',
+      era: 'long',
+    }
+  
+    const option1 = {
+            timeZone: 'Asia/Calcutta',
+            timeZoneName: 'long',
+            era: 'short',
+            year: 'numeric',
+            month: 'long',
+            weekday: 'long',
+            hour12: true,
+            hour: 'numeric',
+            minute: 'numeric',
+            second: 'numeric',
+          }
+  
+      setInterval(() => {
+          const date = new Date();
+          const showTime = date.toLocaleString('en-au', option1);
+  
+          loc.innerText = showTime
+      }, 1000)
+
+      console.log(new Date().toLocaleString('en-au',option));
+  </script>
+</body>
+</html>

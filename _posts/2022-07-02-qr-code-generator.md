@@ -1,42 +1,22 @@
 ---
-layout: tool
+layout: post
 title: QR Code Generator
 ---
+
 <style>
   .qrcode_generator {
     text-align: center;
   }
-
   .qrcode_generator span {
     display: block;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.5);
   }
-
-  input[type=url],
-  .btn {
-    padding: 8px 15px;
-    border-radius: 3px;
-    outline: none;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-  }
-
-  input[type=url]:focus {
-    border: 1px solid rgb(99 102 241);
-  }
-
-  .btn {
-    color: white;
-    border: 1px solid rgb(99 102 241);
-    background: rgb(99 102 241);
-  }
-
   .qr_output {
     display: grid;
     margin-top: 40px;
     place-items: center;
   }
-
   .qr_output img {
     padding: 12px;
     border-radius: 5px;
@@ -51,12 +31,13 @@ title: QR Code Generator
   </div>
   <div class="qr_output">
     <a id="qr_link">
-      <img id="qr_img" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://frontendnode.com/" />
+      <img id="qr_img" loading="lazy" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://frontendnode.com/" />
     </a>
   </div>
 </div>
 <script>
-  const URL_input = document.querySelector('#URL_input'),
+  const
+    URL_input = document.querySelector('#URL_input'),
     qr_img = document.querySelector('#qr_img'),
     qr_link = document.querySelector('#qr_link'),
     qr_btn = document.querySelector('#qr_btn')

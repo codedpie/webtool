@@ -3,10 +3,19 @@
 <head>
   {% include head.html %}
 </head>
-<body class="min-h-screen">
+<body>
   {% include header.html %}
-  <main  class="bg-[url('/assets/bolb.svg'),_url('/assets/bolb2.svg')] bg-no-repeat bg-[length:contain,contain] bg-[position:bottom_right,left] bg-fixed">
-    {% include indexpost.html %}
+  <main>
+    <h2>Online Calculators & Tools</h2>
+    <ul class="home_post">
+    {% for post in site.posts %}
+      <li>
+        <a href={{post.url}}>
+          {{post.title}}
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
   </main>
   {% include footer.html %}
 </body>

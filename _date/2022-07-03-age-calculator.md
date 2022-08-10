@@ -1,20 +1,13 @@
 ---
-layout: tool
+layout: post
 title: Age Calculator
 ---
 
 <style>
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap");
-  :root {
-    --theme-color: rgb(99 102 241);
-    --gray: rgba(0, 0, 0, 0.7);
-    --border: 1px solid rgba(0, 0, 0, 0.3);
-  }
   .age_calc {
-    width: 100%;
+    width: 80%;
     margin: auto;
     padding: 20px;
-    font-family: "Poppins", sans-serif;
   }
   .dob label,
   .today label {
@@ -40,12 +33,12 @@ title: Age Calculator
     border-radius: 5px;
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
-    background: var(--theme-color);
+    background: var(--theme);
   }
   ::-webkit-datetime-edit-month-field:focus,
   ::-webkit-datetime-edit-day-field:focus,
   ::-webkit-datetime-edit-year-field:focus {
-    color: var(--theme-color);
+    color: var(--theme);
     background-color: white;
     border-radius: 3px;
   }
@@ -57,7 +50,7 @@ title: Age Calculator
     margin: 20px 0;
     margin-top: 50px;
     border-radius: 10px;
-    border: var(--border);
+    border: 1px solid var(--border);
     display: -ms-grid;
     display: grid;
     grid-gap: 10px;
@@ -65,27 +58,27 @@ title: Age Calculator
     grid-template-columns: 1fr 1px 1fr;
   }
   .main_year span {
-    color: var(--gray);
+    color: var(--dark);
     font-size: 3rem;
     font-weight: 300;
   }
   .main_year h2 {
     font-size: 1rem;
     font-weight: 400;
-    color: var(--gray);
+    color: var(--dark);
   }
   .main_year #year {
     font-size: 3rem;
     font-weight: 500;
-    color: var(--theme-color);
+    color: var(--theme);
   }
   .main_year p {
     font-size: 1rem;
-    color: var(--gray);
+    color: var(--dark);
   }
   .next_birthday {
     text-align: center;
-    color: var(--theme-color);
+    color: var(--theme);
     display: -ms-grid;
     display: grid;
     justify-items: center;
@@ -97,7 +90,7 @@ title: Age Calculator
     display: -ms-grid;
     display: grid;
     place-items: center;
-    background: var(--theme-color);
+    background: var(--theme);
   }
   .next_birthday_day {
     display: block;
@@ -105,20 +98,20 @@ title: Age Calculator
     font-weight: 500;
   }
   .next_birthday_time {
-    color: var(--gray);
+    color: var(--dark);
     display: block;
   }
   .summary {
     padding: 25px;
     margin: 20px 0;
     border-radius: 10px;
-    border: var(--border);
+    border: 1px solid var(--border);
   }
   .summary h2 {
     text-align: center;
     font-size: 1.4rem;
     font-weight: 400;
-    color: var(--theme-color);
+    color: var(--theme);
   }
   .all_summary {
     display: grid;
@@ -129,15 +122,16 @@ title: Age Calculator
     grid-template-columns: 1fr 1fr 1fr;
   }
   .all_summary span {
-    color: var(--gray);
+    color: var(--dark);
   }
   .tim_sumry {
-    color: var(--gray);
+    color: var(--dark);
     font-weight: 500;
   }
   /* for mobile */
   @media (max-width: 640px) {
     .age_calc {
+      width: 100%;
       padding: 10px;
     }
     .result {
@@ -145,18 +139,6 @@ title: Age Calculator
     }
     .summary {
       padding: 10px;
-    }
-  }
-  /* for tablet */
-  @media only screen and (min-width: 641px) and (max-width: 768px) {
-    .age_calc {
-      width: 80%;
-    }
-  }
-  /* for desktop */
-  @media (min-width: 1024px) {
-    .age_calc {
-      width: 50%;
     }
   }
 </style>

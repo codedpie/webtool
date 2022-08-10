@@ -1,5 +1,5 @@
 ---
-layout: tool
+layout: page
 title: Word Counter
 ---
 
@@ -8,22 +8,20 @@ title: Word Counter
     margin: 40px 0;
     text-align: center;
   }
-
   .input_word textarea {
-    width: 60%;
+    width: 100%;
+    min-height: 250px;
     padding: 12px;
     outline: none;
     margin: auto;
     border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--border);
   }
-
   .input_word textarea:focus {
-    border: 1px solid rgb(99 102 241);
+    border: 1px solid var(--theme);
   }
-
   .output {
-    width: 60%;
+    width: 100%;
     margin: auto;
     display: grid;
     grid-gap: 10px;
@@ -31,28 +29,23 @@ title: Word Counter
     margin-top: 30px;
     grid-auto-flow: column;
   }
-
   .output>div {
     padding: 10px 0;
     border-radius: 5px;
     background: rgba(99, 102, 241, 0.1);
   }
-
   .output>div span {
     color: rgba(0, 0, 0, 0.5);
     font-size: 12px;
   }
-
   .output>div h3 {
     font-size: 20px;
     font-weight: 600;
   }
-
   @media (max-width:768px) {
     .input_word textarea {
       width: 100%;
     }
-
     .output {
       width: 100%;
       grid-template-rows: 1fr 1fr;

@@ -1,5 +1,5 @@
 ---
-layout: tool
+layout: post
 title: Youtube Thumbnail Downloader
 ---
 
@@ -7,28 +7,11 @@ title: Youtube Thumbnail Downloader
   .yt-thumb {
     margin: 40px 0;
   }
-
   .input-box {
     text-align: center;
   }
-
-  .input-box input {
-    width: 50%;
-    padding: 7px 10px;
-    outline: none;
-    border-radius: 5px;
-    background: #efefef;
-  }
-
-  .input-box button {
-    color: white;
-    padding: 7px 10px;
-    border-radius: 5px;
-    background: royalblue;
-  }
-
   #valid p {
-    color: white;
+    color: var(--light);
     margin: 20px 0;
     font-weight: 500;
     padding: 7px 10px;
@@ -36,40 +19,23 @@ title: Youtube Thumbnail Downloader
     border-radius: 5px;
     background: rgba(255, 0, 0, 0.7)
   }
-
-  .none {
-    display: none;
-  }
-
-  .grid {
-    display: grid;
-  }
-
   #outImg {
     text-align: center;
     margin-top: 40px;
     grid-gap: 20px;
   }
-
+  #outImg>div {
+    display: grid;
+    place-items: center;
+  }
   #outImg label {
     font-size: 20px;
     font-weight: 500;
   }
-
-  #outImg a {
-    color: white;
-    font-weight: 500;
-    padding: 6px 10px;
-    border-radius: 5px;
-    display: inline-block;
-    background: royalblue;
-  }
-
   #outImg img {
     margin: 20px auto;
   }
 </style>
-
 <div class="yt-thumb">
   <div class="input-box">
     <input type="text" placeholder="Enter Youtube Video URL" id="in-url" />
@@ -80,33 +46,33 @@ title: Youtube Thumbnail Downloader
   </div>
   <div class="none" id="outImg">
     <div>
-      <label>High Quality (1280x720)</label>
+      <label>Max Quality (1280x720)</label>
       <img alt="Youtube Thumbnail Downloader">
-      <a>High Quality Download</a>
+      <a>MQ Download</a>
     </div>
     <hr>
     <div>
       <label>SD Quality (640x480)</label>
       <img alt="Youtube Thumbnail Downloader">
-      <a>High Quality Download</a>
+      <a>SD Download</a>
     </div>
     <hr>
     <div>
-      <label>HQ Quality</label>
+      <label>High Quality (480x360)</label>
       <img alt="Youtube Thumbnail Downloader">
-      <a>High Quality Download</a>
+      <a>HQ Download</a>
     </div>
     <hr>
     <div>
-      <label>Medium Quality</label>
+      <label>Medium Quality (320x180)</label>
       <img alt="Youtube Thumbnail Downloader">
-      <a>High Quality Download</a>
+      <a>MQ Download</a>
     </div>
     <hr>
     <div>
-      <label>Normal Quality</label>
+      <label>Normal Quality (120x90)</label>
       <img alt="Youtube Thumbnail Downloader">
-      <a>High Quality Download</a>
+      <a>Normal Download</a>
     </div>
   </div>
 </div>
@@ -148,7 +114,6 @@ title: Youtube Thumbnail Downloader
       ytID = undefined
       valid.classList.replace('none', 'grid')
     }
-
     const
       df = `https://img.youtube.com/vi/${ytID}/default.jpg`,
       mq = `https://img.youtube.com/vi/${ytID}/mqdefault.jpg`,
@@ -169,9 +134,8 @@ title: Youtube Thumbnail Downloader
     for (let i = 0; i < imgArray.length; i++) {
       img[i].src = imgArray[i]
       a[i].href = aArray[i]
-
+      a[i].classList.add('btn')
     }
-
     outImg.classList.replace('none', 'grid')
   }
 </script>
