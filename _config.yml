@@ -22,13 +22,13 @@ collections:
     permalink: :title/
   length:
     output: true
-    permalink: length/:title/
+    permalink: length/:title
   date:
     output: true
-    permalink: date/:title/
+    permalink: date/:title
   speed:
     output: true
-    permalink: speed/:title/
+    permalink: speed/:title
   time-in:
     output: true
-    permalink: time-in/:title/
+    permalink: time-in/:title
