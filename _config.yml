@@ -2,7 +2,7 @@ title: webtool
 email: sainidhanesh58@gmail.com
 description: >-
   Webtool is a online tool website that provides hundreds of free SEO tools, Calculators, image downloader, timezone and games.
-baseurl: "/"
+baseurl: ""
 url: "https://www.webtool.live"
 twitter_username: jekyllrb
 github_username:  jekyll
