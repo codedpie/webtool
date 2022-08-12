@@ -95,6 +95,7 @@ article h1 {
 input,
 textarea,
 button,
+select,
 .btn {
   outline: none;
   padding: 10px 12px;
@@ -113,6 +114,9 @@ button:hover,
 .btn:hover {
   color: var(--light);
   background: var(--hover);
+}
+option{
+  padding: 8px;
 }
 img {
   max-width: 100%;
