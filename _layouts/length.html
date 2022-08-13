@@ -29,6 +29,10 @@
       height: 60px;
       }
     }
+    .myList{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
   </style>
   <script src="/assets/js/length.js" defer></script>
 </head>
@@ -84,10 +88,10 @@
         All Length Converter:
       </h3>
       <div class="all-length">
-        <ul>
+        <ul class="myList">
           {% for len in site.length %}
           <li>
-            <a href="{{len.url}}">{{len.title}}</a>
+            <a href="{{len.url}}">{{len.heading}}</a>
           </li>
           {% endfor %}
         </ul>
