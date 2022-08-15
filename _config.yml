@@ -5,8 +5,7 @@ description: >-
 baseurl: ""
 url: "https://www.webtool.live"
 twitter_username: jekyllrb
-github_username:  jekyll
-
+github_username: jekyll
 
 permalink: :title/
 # Build settings
@@ -29,6 +28,6 @@ collections:
   speed:
     output: true
     permalink: speed/:title
-  time-in:
+  worldclock:
     output: true
-    permalink: time-in/:title
+    permalink: worldclock/:title

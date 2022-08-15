@@ -1,0 +1,95 @@
+<style>
+  .mainCity {
+    margin: 50px 0;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .mainCity div {
+    display: grid;
+    padding: 10px;
+    place-items: center;
+    border-radius: 3px;
+    background: rgb(248 250 252);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  .mainCity div p,
+  .mainCity div h3 {
+    margin: 0;
+    padding: 0;
+  }
+  .mainCity div h3 {
+    font-weight: bold;
+  }
+  @media (max-width: 640px) {
+    table {
+      width: 100%;
+    }
+    .mainCity {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>
+<div class="mainCity">
+  <div>
+    <a id="city_url">
+      <h3 id="city"></h3>
+    </a>
+    <p id="time"></p>
+  </div>
+  <div>
+    <a id="city_url">
+      <h3 id="city"></h3>
+    </a>
+    <p id="time"></p>
+  </div>
+  <div>
+    <a id="city_url">
+      <h3 id="city"></h3>
+    </a>
+    <p id="time"></p>
+  </div>
+  <div>
+    <a id="city_url">
+      <h3 id="city"></h3>
+    </a>
+    <p id="time"></p>
+  </div>
+  <div>
+    <a id="city_url">
+      <h3 id="city"></h3>
+    </a>
+    <p id="time"></p>
+  </div>
+  <div>
+    <a id="city_url">
+      <h3 id="city"></h3>
+    </a>
+    <p id="time"></p>
+  </div>
+  <div>
+    <a id="city_url">
+      <h3 id="city"></h3>
+    </a>
+    <p id="time"></p>
+  </div>
+  <div>
+    <a id="city_url">
+      <h3 id="city"></h3>
+    </a>
+    <p id="time"></p>
+  </div>
+</div>
+<script>
+  const
+      city = document.querySelectorAll('#city'),
+      time = document.querySelectorAll('#time'),
+      url = document.querySelectorAll('#city_url')
+    const timezone = ['Europe/London', 'America/New_York', 'Asia/Tokyo', 'Europe/Paris', 'Asia/Kolkata', 'America/Los_Angeles', 'Asia/Shanghai', 'Asia/Seoul']
+    time.forEach((e, i) => {
+      const date = new Date().toLocaleString('en-us', { timeZone: timezone[i], timeStyle: 'medium' })
+      e.innerText = date
+      city[i].innerText = timezone[i].split('/')[1].replace('_', ' ')
+      url[i].href = `/worldclock/${timezone[i].split('/')[1]}`
+    })
+</script>

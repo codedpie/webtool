@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+  <style>
+    .timenow {
+      padding: 6px;
+      font-size: 3rem;
+      font-weight: 600;
+      border-radius: 2px;
+      display: inline-block;
+      background: rgb(248 250 252);
+    }
+    #ft {
+      font-weight: bold;
+    }
+    article h1 {
+      text-align: left;
+      font-weight: 600;
+    }
+    article h2 {
+      margin: 0;
+      padding: 0;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    p#ft {
+      font-size: 1.2rem;
+    }
+    table {
+      border-radius: 2px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    table td {
+      padding: 5px 10px;
+      background: rgb(248 250 252);
+    }
+    #std {
+      padding: 8px;
+      font-weight: 500;
+      display: inline-block;
+      background: rgb(248 250 252);
+    }
+  </style>
+</head>
+<body>
+  {% include header.html %}
+  <article>
+    <h1>Now Time In {{page.title | replace: '_',' '}} ({{page.name}})</h1>
+    <div class="timeBox">
+      <h2 id="timenow" class="timenow"></h2>
+      <p id="ft"></p>
+      <p>Anno Domini (AD)</p>
+      <h3 id="std"></h3>
+      <table>
+        <tr>
+          <td>City</td>
+          <td>{{page.title | replace: '_',' '}}</td>
+        </tr>
+        <tr>
+          <td>Country</td>
+          <td>{{page.name}}</td>
+        </tr>
+        <tr>
+          <td>ISO Code</td>
+          <td>{{page.iso}}</td>
+        </tr>
+        <tr>
+          <td>Standard time</td>
+          <td>{{page.utc}}</td>
+        </tr>
+        <tr>
+          <td>Greenwich Mean Time</td>
+          <td id="gmt"></td>
+        </tr>
+        <tr>
+          <td>Timezone Identifier</td>
+          <td>{{page.timezone}}</td>
+        </tr>
+      </table>
+    </div>
+    {{content}}
+    {% include 8citytime.html %}
+  </article>
+  {% include footer.html %}
+  <script>
+    const
+      timenow = document.querySelector('#timenow'),
+      ft = document.querySelector('#ft'),
+      std = document.querySelector('#std'),
+      gmt = document.querySelector('#gmt'),
+      timeZone = '{{page.timezone}}'
+    function currentTime() {
+      timenow.innerText = new Date().toLocaleString('en-us', { timeZone, timeStyle: 'medium' })
+    }
+    currentTime()
+    setInterval(()=>currentTime(), 1000)
+    const fulldate = new Date().toLocaleString('en-us', { timeZone, dateStyle: 'full' })
+    ft.innerText = fulldate
+    const stdTime_f = new Date().toLocaleString('en-au', { timeZone, timeStyle: 'full' }).slice(11)
+    const stdTime_s = new Date().toLocaleString('en-au', { timeZone, timeStyle: 'long' }).slice(11)
+    std.innerText = `${stdTime_f} (${stdTime_s})`
+    gmt.innerText = stdTime_s
+  </script>
+</body>
+</html>
