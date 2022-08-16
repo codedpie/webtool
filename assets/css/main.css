@@ -81,9 +81,6 @@ article {
 article h1 {
   text-align: center;
 }
-.home_post h2 {
-  font: 400 1.2rem var(--font-family);
-}
 .contact_form {
   margin: auto;
 }

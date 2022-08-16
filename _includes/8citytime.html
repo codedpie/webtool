@@ -28,6 +28,12 @@
     .mainCity {
       grid-template-columns: 1fr 1fr;
     }
+    #city{
+      font-size: 14px;
+    }
+    #time{
+      font-size: 12px;
+    }
   }
 </style>
 <div class="mainCity">
@@ -90,6 +96,6 @@
       const date = new Date().toLocaleString('en-us', { timeZone: timezone[i], timeStyle: 'medium' })
       e.innerText = date
       city[i].innerText = timezone[i].split('/')[1].replace('_', ' ')
-      url[i].href = `/worldclock/${timezone[i].split('/')[1]}`
+      url[i].href = `/worldclock/${timezone[i].split('/')[1].replace('_','-')}`
     })
 </script>
