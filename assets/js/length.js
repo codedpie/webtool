@@ -74,7 +74,7 @@ function inputValueEnter() {
       res = iv / val
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       outputValue.value = res.toExponential(5)
     }
     else {
@@ -124,7 +124,7 @@ function inputValueEnter() {
       res = iv / val
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       outputValue.value = res.toExponential(5)
     }
     else {
@@ -174,7 +174,7 @@ function inputValueEnter() {
       res = iv / val
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       outputValue.value = res.toExponential(5)
     }
     else {
@@ -224,7 +224,7 @@ function inputValueEnter() {
       res = iv / val
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       outputValue.value = res.toExponential(5)
     }
     else {
@@ -274,7 +274,7 @@ function inputValueEnter() {
       res = iv / val
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       outputValue.value = res.toExponential(5)
     }
     else {
@@ -323,7 +323,7 @@ function inputValueEnter() {
       val = 6076
       res = iv / val
     }
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       outputValue.value = res.toExponential(5)
     }
     else {
@@ -372,7 +372,7 @@ function inputValueEnter() {
       val = 2025
       res = iv / val
     }
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       outputValue.value = res.toExponential(5)
     }
     else {
@@ -422,7 +422,7 @@ function inputValueEnter() {
       res = iv / val
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       outputValue.value = res.toExponential(5)
     }
     else {
@@ -472,7 +472,7 @@ function inputValueEnter() {
       res = iv / val
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       outputValue.value = res.toExponential(5)
     }
     else {
@@ -522,7 +522,7 @@ function inputValueEnter() {
       res = iv / val
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       outputValue.value = res.toExponential(5)
     }
     else {
@@ -572,7 +572,7 @@ function inputValueEnter() {
       res = iv * val
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       outputValue.value = res.toExponential(5)
     }
     else {
@@ -641,7 +641,7 @@ function outputValueEnter() {
       res = ov * 1.852e+12
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       inputValue.value = res.toExponential(5)
     }
     else {
@@ -681,7 +681,7 @@ function outputValueEnter() {
       res = ov * 1.852e+6
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       inputValue.value = res.toExponential(5)
     }
     else {
@@ -722,7 +722,7 @@ function outputValueEnter() {
       res = ov * 1.852e+9
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       inputValue.value = res.toExponential(5)
     }
     else {
@@ -762,7 +762,7 @@ function outputValueEnter() {
       res = ov * 185200
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       inputValue.value = res.toExponential(5)
     }
     else {
@@ -802,7 +802,7 @@ function outputValueEnter() {
       res = ov * 72910
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       inputValue.value = res.toExponential(5)
     }
     else {
@@ -842,7 +842,7 @@ function outputValueEnter() {
       res = ov * 6076
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       inputValue.value = res.toExponential(5)
     }
     else {
@@ -882,7 +882,7 @@ function outputValueEnter() {
       res = ov * 2025
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       inputValue.value = res.toExponential(5)
     }
     else {
@@ -922,7 +922,7 @@ function outputValueEnter() {
       res = ov * 1852
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       inputValue.value = res.toExponential(5)
     }
     else {
@@ -962,7 +962,7 @@ function outputValueEnter() {
       res = ov * 1.852
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       inputValue.value = res.toExponential(5)
     }
     else {
@@ -1002,7 +1002,7 @@ function outputValueEnter() {
       res = ov * 1.151
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       inputValue.value = res.toExponential(5)
     }
     else {
@@ -1042,7 +1042,7 @@ function outputValueEnter() {
       res = ov / 1.151
     }
 
-    if (res.toString().length >= 10) {
+    if (res.toString().length >= 10 && si !== so) {
       inputValue.value = res.toExponential(5)
     }
     else {

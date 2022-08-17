@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-let para = [];
+let para = [''];
 let symbol = ['']
 let paraFull = ['']
 

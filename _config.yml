@@ -25,9 +25,9 @@ collections:
   date:
     output: true
     permalink: date/:title
-  speed:
+  datastorage:
     output: true
-    permalink: speed/:title
+    permalink: data/:title
   worldclock:
     output: true
     permalink: worldclock/:title
