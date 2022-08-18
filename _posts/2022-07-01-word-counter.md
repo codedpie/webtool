@@ -100,3 +100,11 @@ title: Word Counter
     lin.innerText = wordCount(input_box.value).lines
   }
 </script>
+
+## What is a Word counter tool and How to Use it?
+Our online Word and characters tool editor can help you improve your word choice and writing style in addition to word and character, counts lines and, also counts characters with and without space.
+Simply place your cursor in the text box above and begin typing to check the word count. As you type, delete, and revise them, you'll notice a rise or decrease in the number of letters and words. Text from another software can easily be copied and pasted into the editor online.
+
+**Advice:** Save this page as a bookmark right away.
+
+It can be crucial to know a text's word count. For instance, if a writer is required to produce a specific minimum or maximum word count for an article, essay, report, narrative, book, paper, etc. WordCounter will assist in ensuring that the word count meets a particular requirement or remains within a predetermined range.
