@@ -27,7 +27,7 @@ collections:
     permalink: date/:title
   datastorage:
     output: true
-    permalink: data/:title
+    permalink: datastorage/:title
   worldclock:
     output: true
     permalink: worldclock/:title
