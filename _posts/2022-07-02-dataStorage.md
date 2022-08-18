@@ -8,10 +8,11 @@ permalink: datastorage
   .dataStorage {
     display: grid;
     gap: 15px;
+    margin-top: 50px;
   }
   @media(min-width:639px) {
     .dataStorage {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 </style>
