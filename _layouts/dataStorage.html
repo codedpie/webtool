@@ -14,8 +14,8 @@
     <section style="margin-top:30px">
       <h3>More Digital Storage Converter:</h3>
       <div>
-        <ul class="myList">{% for data in site.datastorage %}
-        <li><a href="{{data.url}}">{{data.title}}</a></li>{% endfor %}
+        <ul class="myList">{% for data in site.datastorage %}{% assign mod = forloop.index | modulo: 11 %}{% if mod == 0 %}
+        <li><a href="{{data.url}}">{{data.title}}</a></li>{% endif %}{% endfor %}
         </ul>
       </div>
     </section>

@@ -14,8 +14,8 @@
     <section style="margin-top:30px">
       <h3>More Length Converter:</h3>
       <div class="all-length">
-        <ul class="myList">{% for len in site.length %}
-        <li><a href="{{len.url}}">{{len.heading}}</a></li>{% endfor %}
+        <ul class="myList">{% for len in site.length %}{% assign mod = forloop.index | modulo: 6 %}{% if mod == 0 %}
+          <li><a href="{{len.url}}">{{len.heading}}</a></li>{% endif %}{% endfor %}
         </ul>
       </div>
     </section>
