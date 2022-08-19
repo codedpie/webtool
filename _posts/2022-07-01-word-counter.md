@@ -77,28 +77,7 @@ title: Word Counter
   </div>
 </div>
 <script>
-  const input_box = document.querySelector('#input_box'),
-    cws = document.querySelector('#cws'),
-    chr = document.querySelector('#chr'),
-    wrd = document.querySelector('#wrd'),
-    lin = document.querySelector('#lin')
-
-  function wordCount(val) {
-    var wom = val.match(/\S+/g);
-    return {
-      charactersNoSpaces: val.replace(/\s+/g, '').length,
-      characters: val.length,
-      words: wom ? wom.length : 0,
-      lines: val.split(/\r*\n/).length
-    };
-  }
-
-  input_box.oninput = () => {
-    cws.innerText = wordCount(input_box.value).charactersNoSpaces
-    chr.innerText = wordCount(input_box.value).characters
-    wrd.innerText = wordCount(input_box.value).words
-    lin.innerText = wordCount(input_box.value).lines
-  }
+  const input_box=document.querySelector("#input_box"),cws=document.querySelector("#cws"),chr=document.querySelector("#chr"),wrd=document.querySelector("#wrd"),lin=document.querySelector("#lin");function wordCount(a){var b=a.match(/\S+/g);return{charactersNoSpaces:a.replace(/\s+/g,"").length,characters:a.length,words:b?b.length:0,lines:a.split(/\r*\n/).length}}input_box.oninput=()=>{cws.innerText=wordCount(input_box.value).charactersNoSpaces,chr.innerText=wordCount(input_box.value).characters,wrd.innerText=wordCount(input_box.value).words,lin.innerText=wordCount(input_box.value).lines}
 </script>
 
 ## What is a Word counter tool and How to Use it?

@@ -47,23 +47,7 @@
   </article>
   {% include footer.html %}
   <script>
-    const
-      timenow = document.querySelector('#timenow'),
-      ft = document.querySelector('#ft'),
-      std = document.querySelector('#std'),
-      gmt = document.querySelector('#gmt'),
-      timeZone = '{{page.timezone}}'
-    function currentTime() {
-      timenow.innerText = new Date().toLocaleString('en-us', { timeZone, timeStyle: 'medium' })
-    }
-    currentTime()
-    setInterval(()=>currentTime(), 1000)
-    const fulldate = new Date().toLocaleString('en-us', { timeZone, dateStyle: 'full' })
-    ft.innerText = fulldate
-    const stdTime_f = new Date().toLocaleString('en-au', { timeZone, timeStyle: 'full' }).slice(11)
-    const stdTime_s = new Date().toLocaleString('en-au', { timeZone, timeStyle: 'long' }).slice(11)
-    std.innerText = `${stdTime_f} (${stdTime_s})`
-    gmt.innerText = stdTime_s
+    const timenow=document.querySelector("#timenow"),ft=document.querySelector("#ft"),std=document.querySelector("#std"),gmt=document.querySelector("#gmt"),timeZone="{{page.timezone}}";function currentTime(){timenow.innerText=new Date().toLocaleString("en-us",{timeZone,timeStyle:"medium"})}currentTime(),setInterval(()=>currentTime(),1e3);const fulldate=new Date().toLocaleString("en-us",{timeZone,dateStyle:"full"});ft.innerText=fulldate;const stdTime_f=new Date().toLocaleString("en-au",{timeZone,timeStyle:"full"}).slice(11),stdTime_s=new Date().toLocaleString("en-au",{timeZone,timeStyle:"long"}).slice(11);std.innerText=`${stdTime_f} (${stdTime_s})`,gmt.innerText=stdTime_s
   </script>
 </body>
 </html>

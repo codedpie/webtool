@@ -52,15 +52,5 @@
   </div>
 </div>
 <script>
-  const
-      city = document.querySelectorAll('#city'),
-      time = document.querySelectorAll('#time'),
-      url = document.querySelectorAll('#city_url')
-    const timezone = ['Europe/London', 'America/New_York', 'Asia/Tokyo', 'Europe/Paris', 'Asia/Kolkata', 'America/Los_Angeles', 'Asia/Shanghai', 'Asia/Seoul']
-    time.forEach((e, i) => {
-      const date = new Date().toLocaleString('en-us', { timeZone: timezone[i], timeStyle: 'medium' })
-      e.innerText = date
-      city[i].innerText = timezone[i].split('/')[1].replace('_', ' ')
-      url[i].href = `/worldclock/${timezone[i].split('/')[1].replace('_','-')}`
-    })
+  const city=document.querySelectorAll("#city"),time=document.querySelectorAll("#time"),url=document.querySelectorAll("#city_url"),timezone=["Europe/London","America/New_York","Asia/Tokyo","Europe/Paris","Asia/Kolkata","America/Los_Angeles","Asia/Shanghai","Asia/Seoul"];time.forEach((b,a)=>{let c=new Date().toLocaleString("en-us",{timeZone:timezone[a],timeStyle:"medium"});b.innerText=c,city[a].innerText=timezone[a].split("/")[1].replace("_"," "),url[a].href=`/worldclock/${timezone[a].split("/")[1].replace("_","-")}`})
 </script>

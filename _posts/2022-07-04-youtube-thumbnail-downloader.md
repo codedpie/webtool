@@ -2,39 +2,8 @@
 layout: post
 title: Youtube Thumbnail Downloader
 ---
-
 <style>
-  .yt-thumb {
-    margin: 40px 0;
-  }
-  .input-box {
-    text-align: center;
-  }
-  #valid p {
-    color: var(--light);
-    margin: 20px 0;
-    font-weight: 500;
-    padding: 7px 10px;
-    display: inline-block;
-    border-radius: 5px;
-    background: rgba(255, 0, 0, 0.7)
-  }
-  #outImg {
-    text-align: center;
-    margin-top: 40px;
-    grid-gap: 20px;
-  }
-  #outImg>div {
-    display: grid;
-    place-items: center;
-  }
-  #outImg label {
-    font-size: 20px;
-    font-weight: 500;
-  }
-  #outImg img {
-    margin: 20px auto;
-  }
+  #outImg,.input-box{text-align:center}.yt-thumb{margin:40px 0}#valid p{color:var(--light);margin:20px 0;font-weight:500;padding:7px 10px;display:inline-block;border-radius:5px;background:rgba(255,0,0,.7)}#outImg{margin-top:40px;grid-gap:20px}#outImg>div{display:grid;place-items:center}#outImg label{font-size:20px;font-weight:500}#outImg img{margin:20px auto}
 </style>
 <div class="yt-thumb">
   <div class="input-box">
@@ -76,66 +45,6 @@ title: Youtube Thumbnail Downloader
     </div>
   </div>
 </div>
-
 <script>
-  const in_url = document.querySelector('#in-url'),
-    sub_btn = document.querySelector('#sub-btn'),
-    valid = document.querySelector('#valid'),
-    outImg = document.querySelector('#outImg'),
-    img = document.querySelectorAll('#outImg img'),
-    a = document.querySelectorAll('#outImg a')
-
-  sub_btn.onclick = () => {
-    const
-      ytURL = in_url.value,
-      splitURL = ytURL.replace('https://', '').split('/')
-
-    let ytID = ''
-
-    if (splitURL.includes('embed')) {
-      ytID = splitURL[splitURL.length - 1]
-    }
-    else if (splitURL.includes('m.youtube.com')) {
-      ytID = splitURL[splitURL.length - 1].replace('watch?v=', '')
-    }
-    else if (splitURL.includes('www.youtube.com')) {
-      ytID = splitURL[splitURL.length - 1].replace('watch?v=', '')
-    }
-    else if (splitURL.includes('youtube.com')) {
-      ytID = splitURL[splitURL.length - 1].replace('watch?v=', '')
-    }
-    else if (splitURL.includes('youtu.be')) {
-      ytID = splitURL[splitURL.length - 1].split('?')[0]
-    }
-    else if (splitURL[0].length == 11) {
-      ytID = splitURL[0]
-    }
-    else {
-      ytID = undefined
-      valid.classList.replace('none', 'grid')
-    }
-    const
-      df = `https://img.youtube.com/vi/${ytID}/default.jpg`,
-      mq = `https://img.youtube.com/vi/${ytID}/mqdefault.jpg`,
-      hq = `https://img.youtube.com/vi/${ytID}/hqdefault.jpg`,
-      sd = `https://img.youtube.com/vi/${ytID}/sddefault.jpg`,
-      mx = `https://img.youtube.com/vi/${ytID}/maxresdefault.jpg`
-
-    const
-      HD = `https://thumbnailphoto.net/download.php?id=${ytID}&quality=HD`,
-      SD = `https://thumbnailphoto.net/download.php?id=${ytID}&quality=SD`,
-      HQ = `https://thumbnailphoto.net/download.php?id=${ytID}&quality=HQ`,
-      MQ = `https://thumbnailphoto.net/download.php?id=${ytID}&quality=MQ`,
-      def = `https://thumbnailphoto.net//download.php?id=${ytID}&quality=def`
-
-    const imgArray = [mx, sd, hq, mq, df]
-    const aArray = [HD, SD, HQ, MQ, def]
-
-    for (let i = 0; i < imgArray.length; i++) {
-      img[i].src = imgArray[i]
-      a[i].href = aArray[i]
-      a[i].classList.add('btn')
-    }
-    outImg.classList.replace('none', 'grid')
-  }
+  const in_url=document.querySelector("#in-url"),sub_btn=document.querySelector("#sub-btn"),valid=document.querySelector("#valid"),outImg=document.querySelector("#outImg"),img=document.querySelectorAll("#outImg img"),a=document.querySelectorAll("#outImg a");sub_btn.onclick=()=>{let f=in_url.value,b=f.replace("https://","").split("/"),c="";b.includes("embed")?c=b[b.length-1]:b.includes("m.youtube.com")?c=b[b.length-1].replace("watch?v=",""):b.includes("www.youtube.com")?c=b[b.length-1].replace("watch?v=",""):b.includes("youtube.com")?c=b[b.length-1].replace("watch?v=",""):b.includes("youtu.be")?c=b[b.length-1].split("?")[0]:11==b[0].length?c=b[0]:(c=void 0,valid.classList.replace("none","grid"));let g=`https://img.youtube.com/vi/${c}/default.jpg`,h=`https://img.youtube.com/vi/${c}/mqdefault.jpg`,i=`https://img.youtube.com/vi/${c}/hqdefault.jpg`,j=`https://img.youtube.com/vi/${c}/sddefault.jpg`,k=`https://img.youtube.com/vi/${c}/maxresdefault.jpg`,l=`https://thumbnailphoto.net/download.php?id=${c}&quality=HD`,m=`https://thumbnailphoto.net/download.php?id=${c}&quality=SD`,n=`https://thumbnailphoto.net/download.php?id=${c}&quality=HQ`,o=`https://thumbnailphoto.net/download.php?id=${c}&quality=MQ`,p=`https://thumbnailphoto.net//download.php?id=${c}&quality=def`,e=[k,j,i,h,g],q=[l,m,n,o,p];for(let d=0;d<e.length;d++)img[d].src=e[d],a[d].href=q[d],a[d].classList.add("btn");outImg.classList.replace("none","grid")}
 </script>
