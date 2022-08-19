@@ -29,31 +29,31 @@ Using Data storage Conversion tool you can converte **Kibibit (Kibit)** to **Kib
 
 | Kibibit (Kibit) | Terabit (tb) |
 | ---- | ---- |
-| 0.01 Kibit | {{ 0.01 | divided_by: page.value | round: 12 }} tb |
-| 0.1 Kibit | {{ 0.1 | divided_by: page.value | round: 12 }} tb |
-| 0.25 Kibit | {{ 0.25 | divided_by: page.value | round: 12 }} tb |
-| 0.5 Kibit | {{ 0.50 | divided_by: page.value | round: 12 }} tb |
-| 1 Kibit | {{ 1.0 | divided_by: page.value | round: 12 }} tb |
-| 2 Kibit | {{ 2.0 | divided_by: page.value | round: 12 }} tb |
-| 3 Kibit | {{ 3.0 | divided_by: page.value | round: 12 }} tb |
-| 5 Kibit | {{ 5.0 | divided_by: page.value | round: 12 }} tb |
-| 10 Kibit | {{ 10.0 | divided_by: page.value | round: 12 }} tb |
-| 100 Kibit | {{ 100.0 | divided_by: page.value | round: 12 }} tb |
+| 0.01 Kibit | {{ 0.01 | divided_by: page.value }} tb |
+| 0.1 Kibit | {{ 0.1 | divided_by: page.value }} tb |
+| 0.25 Kibit | {{ 0.25 | divided_by: page.value }} tb |
+| 0.5 Kibit | {{ 0.50 | divided_by: page.value }} tb |
+| 1 Kibit | {{ 1.0 | divided_by: page.value }} tb |
+| 2 Kibit | {{ 2.0 | divided_by: page.value }} tb |
+| 3 Kibit | {{ 3.0 | divided_by: page.value }} tb |
+| 5 Kibit | {{ 5.0 | divided_by: page.value }} tb |
+| 10 Kibit | {{ 10.0 | divided_by: page.value }} tb |
+| 100 Kibit | {{ 100.0 | divided_by: page.value }} tb |
 
 ## Terabit to Kibibit Convertion Table :
 
 | Terabit (tb) | Kibibit (Kibit) |
 | ---- | ---- |
-| 0.01 tb | {{ 0.01 | times: page.value | round: 12 }} Kibit |
-| 0.1 tb | {{ 0.1 | times: page.value | round: 12 }} Kibit |
-| 0.25 tb | {{ 0.25 | times: page.value | round: 12 }} Kibit |
-| 0.5 tb | {{ 0.50 | times: page.value | round: 12 }} Kibit |
-| 1 tb | {{ 1.0 | times: page.value | round: 12 }} Kibit |
-| 2 tb | {{ 2.0 | times: page.value | round: 12 }} Kibit |
-| 3 tb | {{ 3.0 | times: page.value | round: 12 }} Kibit |
-| 5 tb | {{ 5.0 | times: page.value | round: 12 }} Kibit |
-| 10 tb | {{ 10.0 | times: page.value | round: 12 }} Kibit |
-| 100 tb | {{ 100.0 | times: page.value | round: 12 }} Kibit |
+| 0.01 tb | {{ 0.01 | times: page.value }} Kibit |
+| 0.1 tb | {{ 0.1 | times: page.value }} Kibit |
+| 0.25 tb | {{ 0.25 | times: page.value }} Kibit |
+| 0.5 tb | {{ 0.50 | times: page.value }} Kibit |
+| 1 tb | {{ 1.0 | times: page.value }} Kibit |
+| 2 tb | {{ 2.0 | times: page.value }} Kibit |
+| 3 tb | {{ 3.0 | times: page.value }} Kibit |
+| 5 tb | {{ 5.0 | times: page.value }} Kibit |
+| 10 tb | {{ 10.0 | times: page.value }} Kibit |
+| 100 tb | {{ 100.0 | times: page.value }} Kibit |
 
 
 <script>

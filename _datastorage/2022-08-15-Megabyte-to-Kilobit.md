@@ -29,31 +29,31 @@ Using Data storage Conversion tool you can converte **Megabyte (MB)** to **Megab
 
 | Megabyte (MB) | Kilobit (kb) |
 | ---- | ---- |
-| 0.01 MB | {{ 0.01 | times: page.value | round: 12 }} kb |
-| 0.1 MB | {{ 0.1 | times: page.value | round: 12 }} kb |
-| 0.25 MB | {{ 0.25 | times: page.value | round: 12 }} kb |
-| 0.5 MB | {{ 0.50 | times: page.value | round: 12 }} kb |
-| 1 MB | {{ 1.0 | times: page.value | round: 12 }} kb |
-| 2 MB | {{ 2.0 | times: page.value | round: 12 }} kb |
-| 3 MB | {{ 3.0 | times: page.value | round: 12 }} kb |
-| 5 MB | {{ 5.0 | times: page.value | round: 12 }} kb |
-| 10 MB | {{ 10.0 | times: page.value | round: 12 }} kb |
-| 100 MB | {{ 100.0 | times: page.value | round: 12 }} kb |
+| 0.01 MB | {{ 0.01 | times: page.value }} kb |
+| 0.1 MB | {{ 0.1 | times: page.value }} kb |
+| 0.25 MB | {{ 0.25 | times: page.value }} kb |
+| 0.5 MB | {{ 0.50 | times: page.value }} kb |
+| 1 MB | {{ 1.0 | times: page.value }} kb |
+| 2 MB | {{ 2.0 | times: page.value }} kb |
+| 3 MB | {{ 3.0 | times: page.value }} kb |
+| 5 MB | {{ 5.0 | times: page.value }} kb |
+| 10 MB | {{ 10.0 | times: page.value }} kb |
+| 100 MB | {{ 100.0 | times: page.value }} kb |
 
 ## Kilobit to Megabyte Convertion Table :
 
 | Kilobit (kb) | Megabyte (MB) |
 | ---- | ---- |
-| 0.01 kb | {{ 0.01 | divided_by: page.value | round: 12 }} MB |
-| 0.1 kb | {{ 0.1 | divided_by: page.value | round: 12 }} MB |
-| 0.25 kb | {{ 0.25 | divided_by: page.value | round: 12 }} MB |
-| 0.5 kb | {{ 0.50 | divided_by: page.value | round: 12 }} MB |
-| 1 kb | {{ 1.0 | divided_by: page.value | round: 12 }} MB |
-| 2 kb | {{ 2.0 | divided_by: page.value | round: 12 }} MB |
-| 3 kb | {{ 3.0 | divided_by: page.value | round: 12 }} MB |
-| 5 kb | {{ 5.0 | divided_by: page.value | round: 12 }} MB |
-| 10 kb | {{ 10.0 | divided_by: page.value | round: 12 }} MB |
-| 100 kb | {{ 100.0 | divided_by: page.value | round: 12 }} MB |
+| 0.01 kb | {{ 0.01 | divided_by: page.value }} MB |
+| 0.1 kb | {{ 0.1 | divided_by: page.value }} MB |
+| 0.25 kb | {{ 0.25 | divided_by: page.value }} MB |
+| 0.5 kb | {{ 0.50 | divided_by: page.value }} MB |
+| 1 kb | {{ 1.0 | divided_by: page.value }} MB |
+| 2 kb | {{ 2.0 | divided_by: page.value }} MB |
+| 3 kb | {{ 3.0 | divided_by: page.value }} MB |
+| 5 kb | {{ 5.0 | divided_by: page.value }} MB |
+| 10 kb | {{ 10.0 | divided_by: page.value }} MB |
+| 100 kb | {{ 100.0 | divided_by: page.value }} MB |
 
 
 <script>

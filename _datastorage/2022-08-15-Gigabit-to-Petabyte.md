@@ -29,31 +29,31 @@ Using Data storage Conversion tool you can converte **Gigabit (gb)** to **Gigabi
 
 | Gigabit (gb) | Petabyte (PB) |
 | ---- | ---- |
-| 0.01 gb | {{ 0.01 | divided_by: page.value | round: 12 }} PB |
-| 0.1 gb | {{ 0.1 | divided_by: page.value | round: 12 }} PB |
-| 0.25 gb | {{ 0.25 | divided_by: page.value | round: 12 }} PB |
-| 0.5 gb | {{ 0.50 | divided_by: page.value | round: 12 }} PB |
-| 1 gb | {{ 1.0 | divided_by: page.value | round: 12 }} PB |
-| 2 gb | {{ 2.0 | divided_by: page.value | round: 12 }} PB |
-| 3 gb | {{ 3.0 | divided_by: page.value | round: 12 }} PB |
-| 5 gb | {{ 5.0 | divided_by: page.value | round: 12 }} PB |
-| 10 gb | {{ 10.0 | divided_by: page.value | round: 12 }} PB |
-| 100 gb | {{ 100.0 | divided_by: page.value | round: 12 }} PB |
+| 0.01 gb | {{ 0.01 | divided_by: page.value }} PB |
+| 0.1 gb | {{ 0.1 | divided_by: page.value }} PB |
+| 0.25 gb | {{ 0.25 | divided_by: page.value }} PB |
+| 0.5 gb | {{ 0.50 | divided_by: page.value }} PB |
+| 1 gb | {{ 1.0 | divided_by: page.value }} PB |
+| 2 gb | {{ 2.0 | divided_by: page.value }} PB |
+| 3 gb | {{ 3.0 | divided_by: page.value }} PB |
+| 5 gb | {{ 5.0 | divided_by: page.value }} PB |
+| 10 gb | {{ 10.0 | divided_by: page.value }} PB |
+| 100 gb | {{ 100.0 | divided_by: page.value }} PB |
 
 ## Petabyte to Gigabit Convertion Table :
 
 | Petabyte (PB) | Gigabit (gb) |
 | ---- | ---- |
-| 0.01 PB | {{ 0.01 | times: page.value | round: 12 }} gb |
-| 0.1 PB | {{ 0.1 | times: page.value | round: 12 }} gb |
-| 0.25 PB | {{ 0.25 | times: page.value | round: 12 }} gb |
-| 0.5 PB | {{ 0.50 | times: page.value | round: 12 }} gb |
-| 1 PB | {{ 1.0 | times: page.value | round: 12 }} gb |
-| 2 PB | {{ 2.0 | times: page.value | round: 12 }} gb |
-| 3 PB | {{ 3.0 | times: page.value | round: 12 }} gb |
-| 5 PB | {{ 5.0 | times: page.value | round: 12 }} gb |
-| 10 PB | {{ 10.0 | times: page.value | round: 12 }} gb |
-| 100 PB | {{ 100.0 | times: page.value | round: 12 }} gb |
+| 0.01 PB | {{ 0.01 | times: page.value }} gb |
+| 0.1 PB | {{ 0.1 | times: page.value }} gb |
+| 0.25 PB | {{ 0.25 | times: page.value }} gb |
+| 0.5 PB | {{ 0.50 | times: page.value }} gb |
+| 1 PB | {{ 1.0 | times: page.value }} gb |
+| 2 PB | {{ 2.0 | times: page.value }} gb |
+| 3 PB | {{ 3.0 | times: page.value }} gb |
+| 5 PB | {{ 5.0 | times: page.value }} gb |
+| 10 PB | {{ 10.0 | times: page.value }} gb |
+| 100 PB | {{ 100.0 | times: page.value }} gb |
 
 
 <script>

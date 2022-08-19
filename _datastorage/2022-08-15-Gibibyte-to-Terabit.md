@@ -29,31 +29,31 @@ Using Data storage Conversion tool you can converte **Gibibyte (GiB)** to **Gibi
 
 | Gibibyte (GiB) | Terabit (tb) |
 | ---- | ---- |
-| 0.01 GiB | {{ 0.01 | divided_by: page.value | round: 12 }} tb |
-| 0.1 GiB | {{ 0.1 | divided_by: page.value | round: 12 }} tb |
-| 0.25 GiB | {{ 0.25 | divided_by: page.value | round: 12 }} tb |
-| 0.5 GiB | {{ 0.50 | divided_by: page.value | round: 12 }} tb |
-| 1 GiB | {{ 1.0 | divided_by: page.value | round: 12 }} tb |
-| 2 GiB | {{ 2.0 | divided_by: page.value | round: 12 }} tb |
-| 3 GiB | {{ 3.0 | divided_by: page.value | round: 12 }} tb |
-| 5 GiB | {{ 5.0 | divided_by: page.value | round: 12 }} tb |
-| 10 GiB | {{ 10.0 | divided_by: page.value | round: 12 }} tb |
-| 100 GiB | {{ 100.0 | divided_by: page.value | round: 12 }} tb |
+| 0.01 GiB | {{ 0.01 | divided_by: page.value }} tb |
+| 0.1 GiB | {{ 0.1 | divided_by: page.value }} tb |
+| 0.25 GiB | {{ 0.25 | divided_by: page.value }} tb |
+| 0.5 GiB | {{ 0.50 | divided_by: page.value }} tb |
+| 1 GiB | {{ 1.0 | divided_by: page.value }} tb |
+| 2 GiB | {{ 2.0 | divided_by: page.value }} tb |
+| 3 GiB | {{ 3.0 | divided_by: page.value }} tb |
+| 5 GiB | {{ 5.0 | divided_by: page.value }} tb |
+| 10 GiB | {{ 10.0 | divided_by: page.value }} tb |
+| 100 GiB | {{ 100.0 | divided_by: page.value }} tb |
 
 ## Terabit to Gibibyte Convertion Table :
 
 | Terabit (tb) | Gibibyte (GiB) |
 | ---- | ---- |
-| 0.01 tb | {{ 0.01 | times: page.value | round: 12 }} GiB |
-| 0.1 tb | {{ 0.1 | times: page.value | round: 12 }} GiB |
-| 0.25 tb | {{ 0.25 | times: page.value | round: 12 }} GiB |
-| 0.5 tb | {{ 0.50 | times: page.value | round: 12 }} GiB |
-| 1 tb | {{ 1.0 | times: page.value | round: 12 }} GiB |
-| 2 tb | {{ 2.0 | times: page.value | round: 12 }} GiB |
-| 3 tb | {{ 3.0 | times: page.value | round: 12 }} GiB |
-| 5 tb | {{ 5.0 | times: page.value | round: 12 }} GiB |
-| 10 tb | {{ 10.0 | times: page.value | round: 12 }} GiB |
-| 100 tb | {{ 100.0 | times: page.value | round: 12 }} GiB |
+| 0.01 tb | {{ 0.01 | times: page.value }} GiB |
+| 0.1 tb | {{ 0.1 | times: page.value }} GiB |
+| 0.25 tb | {{ 0.25 | times: page.value }} GiB |
+| 0.5 tb | {{ 0.50 | times: page.value }} GiB |
+| 1 tb | {{ 1.0 | times: page.value }} GiB |
+| 2 tb | {{ 2.0 | times: page.value }} GiB |
+| 3 tb | {{ 3.0 | times: page.value }} GiB |
+| 5 tb | {{ 5.0 | times: page.value }} GiB |
+| 10 tb | {{ 10.0 | times: page.value }} GiB |
+| 100 tb | {{ 100.0 | times: page.value }} GiB |
 
 
 <script>

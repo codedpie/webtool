@@ -29,31 +29,31 @@ Using Data storage Conversion tool you can converte **Petabit (pb)** to **Petabi
 
 | Petabit (pb) | Gibibyte (GiB) |
 | ---- | ---- |
-| 0.01 pb | {{ 0.01 | times: page.value | round: 12 }} GiB |
-| 0.1 pb | {{ 0.1 | times: page.value | round: 12 }} GiB |
-| 0.25 pb | {{ 0.25 | times: page.value | round: 12 }} GiB |
-| 0.5 pb | {{ 0.50 | times: page.value | round: 12 }} GiB |
-| 1 pb | {{ 1.0 | times: page.value | round: 12 }} GiB |
-| 2 pb | {{ 2.0 | times: page.value | round: 12 }} GiB |
-| 3 pb | {{ 3.0 | times: page.value | round: 12 }} GiB |
-| 5 pb | {{ 5.0 | times: page.value | round: 12 }} GiB |
-| 10 pb | {{ 10.0 | times: page.value | round: 12 }} GiB |
-| 100 pb | {{ 100.0 | times: page.value | round: 12 }} GiB |
+| 0.01 pb | {{ 0.01 | times: page.value }} GiB |
+| 0.1 pb | {{ 0.1 | times: page.value }} GiB |
+| 0.25 pb | {{ 0.25 | times: page.value }} GiB |
+| 0.5 pb | {{ 0.50 | times: page.value }} GiB |
+| 1 pb | {{ 1.0 | times: page.value }} GiB |
+| 2 pb | {{ 2.0 | times: page.value }} GiB |
+| 3 pb | {{ 3.0 | times: page.value }} GiB |
+| 5 pb | {{ 5.0 | times: page.value }} GiB |
+| 10 pb | {{ 10.0 | times: page.value }} GiB |
+| 100 pb | {{ 100.0 | times: page.value }} GiB |
 
 ## Gibibyte to Petabit Convertion Table :
 
 | Gibibyte (GiB) | Petabit (pb) |
 | ---- | ---- |
-| 0.01 GiB | {{ 0.01 | divided_by: page.value | round: 12 }} pb |
-| 0.1 GiB | {{ 0.1 | divided_by: page.value | round: 12 }} pb |
-| 0.25 GiB | {{ 0.25 | divided_by: page.value | round: 12 }} pb |
-| 0.5 GiB | {{ 0.50 | divided_by: page.value | round: 12 }} pb |
-| 1 GiB | {{ 1.0 | divided_by: page.value | round: 12 }} pb |
-| 2 GiB | {{ 2.0 | divided_by: page.value | round: 12 }} pb |
-| 3 GiB | {{ 3.0 | divided_by: page.value | round: 12 }} pb |
-| 5 GiB | {{ 5.0 | divided_by: page.value | round: 12 }} pb |
-| 10 GiB | {{ 10.0 | divided_by: page.value | round: 12 }} pb |
-| 100 GiB | {{ 100.0 | divided_by: page.value | round: 12 }} pb |
+| 0.01 GiB | {{ 0.01 | divided_by: page.value }} pb |
+| 0.1 GiB | {{ 0.1 | divided_by: page.value }} pb |
+| 0.25 GiB | {{ 0.25 | divided_by: page.value }} pb |
+| 0.5 GiB | {{ 0.50 | divided_by: page.value }} pb |
+| 1 GiB | {{ 1.0 | divided_by: page.value }} pb |
+| 2 GiB | {{ 2.0 | divided_by: page.value }} pb |
+| 3 GiB | {{ 3.0 | divided_by: page.value }} pb |
+| 5 GiB | {{ 5.0 | divided_by: page.value }} pb |
+| 10 GiB | {{ 10.0 | divided_by: page.value }} pb |
+| 100 GiB | {{ 100.0 | divided_by: page.value }} pb |
 
 
 <script>

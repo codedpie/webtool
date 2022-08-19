@@ -29,31 +29,31 @@ Using Data storage Conversion tool you can converte **Gigabyte (GB)** to **Gigab
 
 | Gigabyte (GB) | Kibibit (Kibit) |
 | ---- | ---- |
-| 0.01 GB | {{ 0.01 | times: page.value | round: 12 }} Kibit |
-| 0.1 GB | {{ 0.1 | times: page.value | round: 12 }} Kibit |
-| 0.25 GB | {{ 0.25 | times: page.value | round: 12 }} Kibit |
-| 0.5 GB | {{ 0.50 | times: page.value | round: 12 }} Kibit |
-| 1 GB | {{ 1.0 | times: page.value | round: 12 }} Kibit |
-| 2 GB | {{ 2.0 | times: page.value | round: 12 }} Kibit |
-| 3 GB | {{ 3.0 | times: page.value | round: 12 }} Kibit |
-| 5 GB | {{ 5.0 | times: page.value | round: 12 }} Kibit |
-| 10 GB | {{ 10.0 | times: page.value | round: 12 }} Kibit |
-| 100 GB | {{ 100.0 | times: page.value | round: 12 }} Kibit |
+| 0.01 GB | {{ 0.01 | times: page.value }} Kibit |
+| 0.1 GB | {{ 0.1 | times: page.value }} Kibit |
+| 0.25 GB | {{ 0.25 | times: page.value }} Kibit |
+| 0.5 GB | {{ 0.50 | times: page.value }} Kibit |
+| 1 GB | {{ 1.0 | times: page.value }} Kibit |
+| 2 GB | {{ 2.0 | times: page.value }} Kibit |
+| 3 GB | {{ 3.0 | times: page.value }} Kibit |
+| 5 GB | {{ 5.0 | times: page.value }} Kibit |
+| 10 GB | {{ 10.0 | times: page.value }} Kibit |
+| 100 GB | {{ 100.0 | times: page.value }} Kibit |
 
 ## Kibibit to Gigabyte Convertion Table :
 
 | Kibibit (Kibit) | Gigabyte (GB) |
 | ---- | ---- |
-| 0.01 Kibit | {{ 0.01 | divided_by: page.value | round: 12 }} GB |
-| 0.1 Kibit | {{ 0.1 | divided_by: page.value | round: 12 }} GB |
-| 0.25 Kibit | {{ 0.25 | divided_by: page.value | round: 12 }} GB |
-| 0.5 Kibit | {{ 0.50 | divided_by: page.value | round: 12 }} GB |
-| 1 Kibit | {{ 1.0 | divided_by: page.value | round: 12 }} GB |
-| 2 Kibit | {{ 2.0 | divided_by: page.value | round: 12 }} GB |
-| 3 Kibit | {{ 3.0 | divided_by: page.value | round: 12 }} GB |
-| 5 Kibit | {{ 5.0 | divided_by: page.value | round: 12 }} GB |
-| 10 Kibit | {{ 10.0 | divided_by: page.value | round: 12 }} GB |
-| 100 Kibit | {{ 100.0 | divided_by: page.value | round: 12 }} GB |
+| 0.01 Kibit | {{ 0.01 | divided_by: page.value }} GB |
+| 0.1 Kibit | {{ 0.1 | divided_by: page.value }} GB |
+| 0.25 Kibit | {{ 0.25 | divided_by: page.value }} GB |
+| 0.5 Kibit | {{ 0.50 | divided_by: page.value }} GB |
+| 1 Kibit | {{ 1.0 | divided_by: page.value }} GB |
+| 2 Kibit | {{ 2.0 | divided_by: page.value }} GB |
+| 3 Kibit | {{ 3.0 | divided_by: page.value }} GB |
+| 5 Kibit | {{ 5.0 | divided_by: page.value }} GB |
+| 10 Kibit | {{ 10.0 | divided_by: page.value }} GB |
+| 100 Kibit | {{ 100.0 | divided_by: page.value }} GB |
 
 
 <script>

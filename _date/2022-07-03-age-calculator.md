@@ -287,10 +287,9 @@ title: Age Calculator
 
 ## What is the Age Calculator tool?
 
-Age calculator is a simple calculator that calculates age of person, pet, things etc. Basically age is the difference between two dates so we subtract date of birth from current date this way we can calculate actual age of person.
+Age calculator is a simple calculator that calculates the age of a person, pet, things etc. Basically, age is the difference between two dates so we subtract the date of birth from the current date this way we can calculate the actual age of the person.
 
-From this free age calculator, you can calculate your age in years, months, weeks, days, hours and also in minuts. this tool calculate your full age and your next birthday day and how many months and days left in the next birthday.
+From this free age calculator, you can calculate your age in years, months, weeks, days, hours and also in minutes. this tool calculates your full age and your next birthday day and how many months and days are left in the next birthday.
 
 ## How to use this tool?
-Age calculator is free tool you can easily use this In the First box [date of birth] select your date of birth and in second it will take today's date automatically but you can change this date as you want and set the date you want to calculate the date diffrence from.
-
+Age calculator is a free tool you can easily use this In the First box [date of birth] select your date of birth and in the second it will take today's date automatically but you can change this date as you want and set the date you want to calculate the date difference from.

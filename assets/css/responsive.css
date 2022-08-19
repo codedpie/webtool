@@ -44,4 +44,7 @@
     width: 50%;
     margin: 50px auto;
   }
+  nav a{
+    font-size: 1rem;
+  }
 }

@@ -29,31 +29,31 @@ Using Data storage Conversion tool you can converte **Kibibit (Kibit)** to **Kib
 
 | Kibibit (Kibit) | Megabyte (MB) |
 | ---- | ---- |
-| 0.01 Kibit | {{ 0.01 | divided_by: page.value | round: 12 }} MB |
-| 0.1 Kibit | {{ 0.1 | divided_by: page.value | round: 12 }} MB |
-| 0.25 Kibit | {{ 0.25 | divided_by: page.value | round: 12 }} MB |
-| 0.5 Kibit | {{ 0.50 | divided_by: page.value | round: 12 }} MB |
-| 1 Kibit | {{ 1.0 | divided_by: page.value | round: 12 }} MB |
-| 2 Kibit | {{ 2.0 | divided_by: page.value | round: 12 }} MB |
-| 3 Kibit | {{ 3.0 | divided_by: page.value | round: 12 }} MB |
-| 5 Kibit | {{ 5.0 | divided_by: page.value | round: 12 }} MB |
-| 10 Kibit | {{ 10.0 | divided_by: page.value | round: 12 }} MB |
-| 100 Kibit | {{ 100.0 | divided_by: page.value | round: 12 }} MB |
+| 0.01 Kibit | {{ 0.01 | divided_by: page.value }} MB |
+| 0.1 Kibit | {{ 0.1 | divided_by: page.value }} MB |
+| 0.25 Kibit | {{ 0.25 | divided_by: page.value }} MB |
+| 0.5 Kibit | {{ 0.50 | divided_by: page.value }} MB |
+| 1 Kibit | {{ 1.0 | divided_by: page.value }} MB |
+| 2 Kibit | {{ 2.0 | divided_by: page.value }} MB |
+| 3 Kibit | {{ 3.0 | divided_by: page.value }} MB |
+| 5 Kibit | {{ 5.0 | divided_by: page.value }} MB |
+| 10 Kibit | {{ 10.0 | divided_by: page.value }} MB |
+| 100 Kibit | {{ 100.0 | divided_by: page.value }} MB |
 
 ## Megabyte to Kibibit Convertion Table :
 
 | Megabyte (MB) | Kibibit (Kibit) |
 | ---- | ---- |
-| 0.01 MB | {{ 0.01 | times: page.value | round: 12 }} Kibit |
-| 0.1 MB | {{ 0.1 | times: page.value | round: 12 }} Kibit |
-| 0.25 MB | {{ 0.25 | times: page.value | round: 12 }} Kibit |
-| 0.5 MB | {{ 0.50 | times: page.value | round: 12 }} Kibit |
-| 1 MB | {{ 1.0 | times: page.value | round: 12 }} Kibit |
-| 2 MB | {{ 2.0 | times: page.value | round: 12 }} Kibit |
-| 3 MB | {{ 3.0 | times: page.value | round: 12 }} Kibit |
-| 5 MB | {{ 5.0 | times: page.value | round: 12 }} Kibit |
-| 10 MB | {{ 10.0 | times: page.value | round: 12 }} Kibit |
-| 100 MB | {{ 100.0 | times: page.value | round: 12 }} Kibit |
+| 0.01 MB | {{ 0.01 | times: page.value }} Kibit |
+| 0.1 MB | {{ 0.1 | times: page.value }} Kibit |
+| 0.25 MB | {{ 0.25 | times: page.value }} Kibit |
+| 0.5 MB | {{ 0.50 | times: page.value }} Kibit |
+| 1 MB | {{ 1.0 | times: page.value }} Kibit |
+| 2 MB | {{ 2.0 | times: page.value }} Kibit |
+| 3 MB | {{ 3.0 | times: page.value }} Kibit |
+| 5 MB | {{ 5.0 | times: page.value }} Kibit |
+| 10 MB | {{ 10.0 | times: page.value }} Kibit |
+| 100 MB | {{ 100.0 | times: page.value }} Kibit |
 
 
 <script>

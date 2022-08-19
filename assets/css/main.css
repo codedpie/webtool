@@ -70,6 +70,9 @@ nav {
   text-align: center;
   grid-column: span 5;
 }
+nav a{
+  font-size: 14px;
+}
 main {
   width: 90%;
   margin: 40px auto;
@@ -120,8 +123,9 @@ img {
 }
 footer {
   top: 100%;
+  gap: 16px;
   display: flex;
-  padding: 20px 0;
+  padding: 30px 0;
   position: sticky;
   align-items: center;
   flex-direction: column;
@@ -130,7 +134,7 @@ footer {
 }
 footer .footer_in {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 footer .copy {
   font-weight: 600;

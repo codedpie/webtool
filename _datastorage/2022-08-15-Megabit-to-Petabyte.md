@@ -29,31 +29,31 @@ Using Data storage Conversion tool you can converte **Megabit (mb)** to **Megabi
 
 | Megabit (mb) | Petabyte (PB) |
 | ---- | ---- |
-| 0.01 mb | {{ 0.01 | divided_by: page.value | round: 12 }} PB |
-| 0.1 mb | {{ 0.1 | divided_by: page.value | round: 12 }} PB |
-| 0.25 mb | {{ 0.25 | divided_by: page.value | round: 12 }} PB |
-| 0.5 mb | {{ 0.50 | divided_by: page.value | round: 12 }} PB |
-| 1 mb | {{ 1.0 | divided_by: page.value | round: 12 }} PB |
-| 2 mb | {{ 2.0 | divided_by: page.value | round: 12 }} PB |
-| 3 mb | {{ 3.0 | divided_by: page.value | round: 12 }} PB |
-| 5 mb | {{ 5.0 | divided_by: page.value | round: 12 }} PB |
-| 10 mb | {{ 10.0 | divided_by: page.value | round: 12 }} PB |
-| 100 mb | {{ 100.0 | divided_by: page.value | round: 12 }} PB |
+| 0.01 mb | {{ 0.01 | divided_by: page.value }} PB |
+| 0.1 mb | {{ 0.1 | divided_by: page.value }} PB |
+| 0.25 mb | {{ 0.25 | divided_by: page.value }} PB |
+| 0.5 mb | {{ 0.50 | divided_by: page.value }} PB |
+| 1 mb | {{ 1.0 | divided_by: page.value }} PB |
+| 2 mb | {{ 2.0 | divided_by: page.value }} PB |
+| 3 mb | {{ 3.0 | divided_by: page.value }} PB |
+| 5 mb | {{ 5.0 | divided_by: page.value }} PB |
+| 10 mb | {{ 10.0 | divided_by: page.value }} PB |
+| 100 mb | {{ 100.0 | divided_by: page.value }} PB |
 
 ## Petabyte to Megabit Convertion Table :
 
 | Petabyte (PB) | Megabit (mb) |
 | ---- | ---- |
-| 0.01 PB | {{ 0.01 | times: page.value | round: 12 }} mb |
-| 0.1 PB | {{ 0.1 | times: page.value | round: 12 }} mb |
-| 0.25 PB | {{ 0.25 | times: page.value | round: 12 }} mb |
-| 0.5 PB | {{ 0.50 | times: page.value | round: 12 }} mb |
-| 1 PB | {{ 1.0 | times: page.value | round: 12 }} mb |
-| 2 PB | {{ 2.0 | times: page.value | round: 12 }} mb |
-| 3 PB | {{ 3.0 | times: page.value | round: 12 }} mb |
-| 5 PB | {{ 5.0 | times: page.value | round: 12 }} mb |
-| 10 PB | {{ 10.0 | times: page.value | round: 12 }} mb |
-| 100 PB | {{ 100.0 | times: page.value | round: 12 }} mb |
+| 0.01 PB | {{ 0.01 | times: page.value }} mb |
+| 0.1 PB | {{ 0.1 | times: page.value }} mb |
+| 0.25 PB | {{ 0.25 | times: page.value }} mb |
+| 0.5 PB | {{ 0.50 | times: page.value }} mb |
+| 1 PB | {{ 1.0 | times: page.value }} mb |
+| 2 PB | {{ 2.0 | times: page.value }} mb |
+| 3 PB | {{ 3.0 | times: page.value }} mb |
+| 5 PB | {{ 5.0 | times: page.value }} mb |
+| 10 PB | {{ 10.0 | times: page.value }} mb |
+| 100 PB | {{ 100.0 | times: page.value }} mb |
 
 
 <script>

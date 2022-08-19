@@ -29,31 +29,31 @@ Using Data storage Conversion tool you can converte **Gigabyte (GB)** to **Gigab
 
 | Gigabyte (GB) | Pebibit (Pibit) |
 | ---- | ---- |
-| 0.01 GB | {{ 0.01 | divided_by: page.value | round: 12 }} Pibit |
-| 0.1 GB | {{ 0.1 | divided_by: page.value | round: 12 }} Pibit |
-| 0.25 GB | {{ 0.25 | divided_by: page.value | round: 12 }} Pibit |
-| 0.5 GB | {{ 0.50 | divided_by: page.value | round: 12 }} Pibit |
-| 1 GB | {{ 1.0 | divided_by: page.value | round: 12 }} Pibit |
-| 2 GB | {{ 2.0 | divided_by: page.value | round: 12 }} Pibit |
-| 3 GB | {{ 3.0 | divided_by: page.value | round: 12 }} Pibit |
-| 5 GB | {{ 5.0 | divided_by: page.value | round: 12 }} Pibit |
-| 10 GB | {{ 10.0 | divided_by: page.value | round: 12 }} Pibit |
-| 100 GB | {{ 100.0 | divided_by: page.value | round: 12 }} Pibit |
+| 0.01 GB | {{ 0.01 | divided_by: page.value }} Pibit |
+| 0.1 GB | {{ 0.1 | divided_by: page.value }} Pibit |
+| 0.25 GB | {{ 0.25 | divided_by: page.value }} Pibit |
+| 0.5 GB | {{ 0.50 | divided_by: page.value }} Pibit |
+| 1 GB | {{ 1.0 | divided_by: page.value }} Pibit |
+| 2 GB | {{ 2.0 | divided_by: page.value }} Pibit |
+| 3 GB | {{ 3.0 | divided_by: page.value }} Pibit |
+| 5 GB | {{ 5.0 | divided_by: page.value }} Pibit |
+| 10 GB | {{ 10.0 | divided_by: page.value }} Pibit |
+| 100 GB | {{ 100.0 | divided_by: page.value }} Pibit |
 
 ## Pebibit to Gigabyte Convertion Table :
 
 | Pebibit (Pibit) | Gigabyte (GB) |
 | ---- | ---- |
-| 0.01 Pibit | {{ 0.01 | times: page.value | round: 12 }} GB |
-| 0.1 Pibit | {{ 0.1 | times: page.value | round: 12 }} GB |
-| 0.25 Pibit | {{ 0.25 | times: page.value | round: 12 }} GB |
-| 0.5 Pibit | {{ 0.50 | times: page.value | round: 12 }} GB |
-| 1 Pibit | {{ 1.0 | times: page.value | round: 12 }} GB |
-| 2 Pibit | {{ 2.0 | times: page.value | round: 12 }} GB |
-| 3 Pibit | {{ 3.0 | times: page.value | round: 12 }} GB |
-| 5 Pibit | {{ 5.0 | times: page.value | round: 12 }} GB |
-| 10 Pibit | {{ 10.0 | times: page.value | round: 12 }} GB |
-| 100 Pibit | {{ 100.0 | times: page.value | round: 12 }} GB |
+| 0.01 Pibit | {{ 0.01 | times: page.value }} GB |
+| 0.1 Pibit | {{ 0.1 | times: page.value }} GB |
+| 0.25 Pibit | {{ 0.25 | times: page.value }} GB |
+| 0.5 Pibit | {{ 0.50 | times: page.value }} GB |
+| 1 Pibit | {{ 1.0 | times: page.value }} GB |
+| 2 Pibit | {{ 2.0 | times: page.value }} GB |
+| 3 Pibit | {{ 3.0 | times: page.value }} GB |
+| 5 Pibit | {{ 5.0 | times: page.value }} GB |
+| 10 Pibit | {{ 10.0 | times: page.value }} GB |
+| 100 Pibit | {{ 100.0 | times: page.value }} GB |
 
 
 <script>

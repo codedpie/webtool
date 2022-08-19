@@ -29,31 +29,31 @@ Using Data storage Conversion tool you can converte **Gigabit (gb)** to **Gigabi
 
 | Gigabit (gb) | Kilobit (kb) |
 | ---- | ---- |
-| 0.01 gb | {{ 0.01 | times: page.value | round: 12 }} kb |
-| 0.1 gb | {{ 0.1 | times: page.value | round: 12 }} kb |
-| 0.25 gb | {{ 0.25 | times: page.value | round: 12 }} kb |
-| 0.5 gb | {{ 0.50 | times: page.value | round: 12 }} kb |
-| 1 gb | {{ 1.0 | times: page.value | round: 12 }} kb |
-| 2 gb | {{ 2.0 | times: page.value | round: 12 }} kb |
-| 3 gb | {{ 3.0 | times: page.value | round: 12 }} kb |
-| 5 gb | {{ 5.0 | times: page.value | round: 12 }} kb |
-| 10 gb | {{ 10.0 | times: page.value | round: 12 }} kb |
-| 100 gb | {{ 100.0 | times: page.value | round: 12 }} kb |
+| 0.01 gb | {{ 0.01 | times: page.value }} kb |
+| 0.1 gb | {{ 0.1 | times: page.value }} kb |
+| 0.25 gb | {{ 0.25 | times: page.value }} kb |
+| 0.5 gb | {{ 0.50 | times: page.value }} kb |
+| 1 gb | {{ 1.0 | times: page.value }} kb |
+| 2 gb | {{ 2.0 | times: page.value }} kb |
+| 3 gb | {{ 3.0 | times: page.value }} kb |
+| 5 gb | {{ 5.0 | times: page.value }} kb |
+| 10 gb | {{ 10.0 | times: page.value }} kb |
+| 100 gb | {{ 100.0 | times: page.value }} kb |
 
 ## Kilobit to Gigabit Convertion Table :
 
 | Kilobit (kb) | Gigabit (gb) |
 | ---- | ---- |
-| 0.01 kb | {{ 0.01 | divided_by: page.value | round: 12 }} gb |
-| 0.1 kb | {{ 0.1 | divided_by: page.value | round: 12 }} gb |
-| 0.25 kb | {{ 0.25 | divided_by: page.value | round: 12 }} gb |
-| 0.5 kb | {{ 0.50 | divided_by: page.value | round: 12 }} gb |
-| 1 kb | {{ 1.0 | divided_by: page.value | round: 12 }} gb |
-| 2 kb | {{ 2.0 | divided_by: page.value | round: 12 }} gb |
-| 3 kb | {{ 3.0 | divided_by: page.value | round: 12 }} gb |
-| 5 kb | {{ 5.0 | divided_by: page.value | round: 12 }} gb |
-| 10 kb | {{ 10.0 | divided_by: page.value | round: 12 }} gb |
-| 100 kb | {{ 100.0 | divided_by: page.value | round: 12 }} gb |
+| 0.01 kb | {{ 0.01 | divided_by: page.value }} gb |
+| 0.1 kb | {{ 0.1 | divided_by: page.value }} gb |
+| 0.25 kb | {{ 0.25 | divided_by: page.value }} gb |
+| 0.5 kb | {{ 0.50 | divided_by: page.value }} gb |
+| 1 kb | {{ 1.0 | divided_by: page.value }} gb |
+| 2 kb | {{ 2.0 | divided_by: page.value }} gb |
+| 3 kb | {{ 3.0 | divided_by: page.value }} gb |
+| 5 kb | {{ 5.0 | divided_by: page.value }} gb |
+| 10 kb | {{ 10.0 | divided_by: page.value }} gb |
+| 100 kb | {{ 100.0 | divided_by: page.value }} gb |
 
 
 <script>

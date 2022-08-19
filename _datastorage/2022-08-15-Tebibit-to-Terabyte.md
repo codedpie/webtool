@@ -29,31 +29,31 @@ Using Data storage Conversion tool you can converte **Tebibit (Tebit)** to **Teb
 
 | Tebibit (Tebit) | Terabyte (TB) |
 | ---- | ---- |
-| 0.01 Tebit | {{ 0.01 | divided_by: page.value | round: 12 }} TB |
-| 0.1 Tebit | {{ 0.1 | divided_by: page.value | round: 12 }} TB |
-| 0.25 Tebit | {{ 0.25 | divided_by: page.value | round: 12 }} TB |
-| 0.5 Tebit | {{ 0.50 | divided_by: page.value | round: 12 }} TB |
-| 1 Tebit | {{ 1.0 | divided_by: page.value | round: 12 }} TB |
-| 2 Tebit | {{ 2.0 | divided_by: page.value | round: 12 }} TB |
-| 3 Tebit | {{ 3.0 | divided_by: page.value | round: 12 }} TB |
-| 5 Tebit | {{ 5.0 | divided_by: page.value | round: 12 }} TB |
-| 10 Tebit | {{ 10.0 | divided_by: page.value | round: 12 }} TB |
-| 100 Tebit | {{ 100.0 | divided_by: page.value | round: 12 }} TB |
+| 0.01 Tebit | {{ 0.01 | divided_by: page.value }} TB |
+| 0.1 Tebit | {{ 0.1 | divided_by: page.value }} TB |
+| 0.25 Tebit | {{ 0.25 | divided_by: page.value }} TB |
+| 0.5 Tebit | {{ 0.50 | divided_by: page.value }} TB |
+| 1 Tebit | {{ 1.0 | divided_by: page.value }} TB |
+| 2 Tebit | {{ 2.0 | divided_by: page.value }} TB |
+| 3 Tebit | {{ 3.0 | divided_by: page.value }} TB |
+| 5 Tebit | {{ 5.0 | divided_by: page.value }} TB |
+| 10 Tebit | {{ 10.0 | divided_by: page.value }} TB |
+| 100 Tebit | {{ 100.0 | divided_by: page.value }} TB |
 
 ## Terabyte to Tebibit Convertion Table :
 
 | Terabyte (TB) | Tebibit (Tebit) |
 | ---- | ---- |
-| 0.01 TB | {{ 0.01 | times: page.value | round: 12 }} Tebit |
-| 0.1 TB | {{ 0.1 | times: page.value | round: 12 }} Tebit |
-| 0.25 TB | {{ 0.25 | times: page.value | round: 12 }} Tebit |
-| 0.5 TB | {{ 0.50 | times: page.value | round: 12 }} Tebit |
-| 1 TB | {{ 1.0 | times: page.value | round: 12 }} Tebit |
-| 2 TB | {{ 2.0 | times: page.value | round: 12 }} Tebit |
-| 3 TB | {{ 3.0 | times: page.value | round: 12 }} Tebit |
-| 5 TB | {{ 5.0 | times: page.value | round: 12 }} Tebit |
-| 10 TB | {{ 10.0 | times: page.value | round: 12 }} Tebit |
-| 100 TB | {{ 100.0 | times: page.value | round: 12 }} Tebit |
+| 0.01 TB | {{ 0.01 | times: page.value }} Tebit |
+| 0.1 TB | {{ 0.1 | times: page.value }} Tebit |
+| 0.25 TB | {{ 0.25 | times: page.value }} Tebit |
+| 0.5 TB | {{ 0.50 | times: page.value }} Tebit |
+| 1 TB | {{ 1.0 | times: page.value }} Tebit |
+| 2 TB | {{ 2.0 | times: page.value }} Tebit |
+| 3 TB | {{ 3.0 | times: page.value }} Tebit |
+| 5 TB | {{ 5.0 | times: page.value }} Tebit |
+| 10 TB | {{ 10.0 | times: page.value }} Tebit |
+| 100 TB | {{ 100.0 | times: page.value }} Tebit |
 
 
 <script>

@@ -1,9 +1,9 @@
 <footer>
-  <div class="footer_in">{% for page in site.pages %}
-      <a href={{page.url}}>{{page.title}}</a>{% endfor %}
-  </div>
   <div class="copy">
     <span>© {{'now' | date: '%Y'}}</span>
     <a href='/'>{{site.title}}</a>
+  </div>
+  <div class="footer_in">{% for page in site.pages %}
+      <a href={{page.url}}>{{page.title}}</a>{% endfor %}
   </div>
 </footer>

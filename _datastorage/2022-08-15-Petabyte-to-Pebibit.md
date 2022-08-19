@@ -29,31 +29,31 @@ Using Data storage Conversion tool you can converte **Petabyte (PB)** to **Petab
 
 | Petabyte (PB) | Pebibit (Pibit) |
 | ---- | ---- |
-| 0.01 PB | {{ 0.01 | times: page.value | round: 12 }} Pibit |
-| 0.1 PB | {{ 0.1 | times: page.value | round: 12 }} Pibit |
-| 0.25 PB | {{ 0.25 | times: page.value | round: 12 }} Pibit |
-| 0.5 PB | {{ 0.50 | times: page.value | round: 12 }} Pibit |
-| 1 PB | {{ 1.0 | times: page.value | round: 12 }} Pibit |
-| 2 PB | {{ 2.0 | times: page.value | round: 12 }} Pibit |
-| 3 PB | {{ 3.0 | times: page.value | round: 12 }} Pibit |
-| 5 PB | {{ 5.0 | times: page.value | round: 12 }} Pibit |
-| 10 PB | {{ 10.0 | times: page.value | round: 12 }} Pibit |
-| 100 PB | {{ 100.0 | times: page.value | round: 12 }} Pibit |
+| 0.01 PB | {{ 0.01 | times: page.value }} Pibit |
+| 0.1 PB | {{ 0.1 | times: page.value }} Pibit |
+| 0.25 PB | {{ 0.25 | times: page.value }} Pibit |
+| 0.5 PB | {{ 0.50 | times: page.value }} Pibit |
+| 1 PB | {{ 1.0 | times: page.value }} Pibit |
+| 2 PB | {{ 2.0 | times: page.value }} Pibit |
+| 3 PB | {{ 3.0 | times: page.value }} Pibit |
+| 5 PB | {{ 5.0 | times: page.value }} Pibit |
+| 10 PB | {{ 10.0 | times: page.value }} Pibit |
+| 100 PB | {{ 100.0 | times: page.value }} Pibit |
 
 ## Pebibit to Petabyte Convertion Table :
 
 | Pebibit (Pibit) | Petabyte (PB) |
 | ---- | ---- |
-| 0.01 Pibit | {{ 0.01 | divided_by: page.value | round: 12 }} PB |
-| 0.1 Pibit | {{ 0.1 | divided_by: page.value | round: 12 }} PB |
-| 0.25 Pibit | {{ 0.25 | divided_by: page.value | round: 12 }} PB |
-| 0.5 Pibit | {{ 0.50 | divided_by: page.value | round: 12 }} PB |
-| 1 Pibit | {{ 1.0 | divided_by: page.value | round: 12 }} PB |
-| 2 Pibit | {{ 2.0 | divided_by: page.value | round: 12 }} PB |
-| 3 Pibit | {{ 3.0 | divided_by: page.value | round: 12 }} PB |
-| 5 Pibit | {{ 5.0 | divided_by: page.value | round: 12 }} PB |
-| 10 Pibit | {{ 10.0 | divided_by: page.value | round: 12 }} PB |
-| 100 Pibit | {{ 100.0 | divided_by: page.value | round: 12 }} PB |
+| 0.01 Pibit | {{ 0.01 | divided_by: page.value }} PB |
+| 0.1 Pibit | {{ 0.1 | divided_by: page.value }} PB |
+| 0.25 Pibit | {{ 0.25 | divided_by: page.value }} PB |
+| 0.5 Pibit | {{ 0.50 | divided_by: page.value }} PB |
+| 1 Pibit | {{ 1.0 | divided_by: page.value }} PB |
+| 2 Pibit | {{ 2.0 | divided_by: page.value }} PB |
+| 3 Pibit | {{ 3.0 | divided_by: page.value }} PB |
+| 5 Pibit | {{ 5.0 | divided_by: page.value }} PB |
+| 10 Pibit | {{ 10.0 | divided_by: page.value }} PB |
+| 100 Pibit | {{ 100.0 | divided_by: page.value }} PB |
 
 
 <script>

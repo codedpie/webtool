@@ -29,31 +29,31 @@ Using Data storage Conversion tool you can converte **Gibibit (Gibit)** to **Gib
 
 | Gibibit (Gibit) | Megabyte (MB) |
 | ---- | ---- |
-| 0.01 Gibit | {{ 0.01 | times: page.value | round: 12 }} MB |
-| 0.1 Gibit | {{ 0.1 | times: page.value | round: 12 }} MB |
-| 0.25 Gibit | {{ 0.25 | times: page.value | round: 12 }} MB |
-| 0.5 Gibit | {{ 0.50 | times: page.value | round: 12 }} MB |
-| 1 Gibit | {{ 1.0 | times: page.value | round: 12 }} MB |
-| 2 Gibit | {{ 2.0 | times: page.value | round: 12 }} MB |
-| 3 Gibit | {{ 3.0 | times: page.value | round: 12 }} MB |
-| 5 Gibit | {{ 5.0 | times: page.value | round: 12 }} MB |
-| 10 Gibit | {{ 10.0 | times: page.value | round: 12 }} MB |
-| 100 Gibit | {{ 100.0 | times: page.value | round: 12 }} MB |
+| 0.01 Gibit | {{ 0.01 | times: page.value }} MB |
+| 0.1 Gibit | {{ 0.1 | times: page.value }} MB |
+| 0.25 Gibit | {{ 0.25 | times: page.value }} MB |
+| 0.5 Gibit | {{ 0.50 | times: page.value }} MB |
+| 1 Gibit | {{ 1.0 | times: page.value }} MB |
+| 2 Gibit | {{ 2.0 | times: page.value }} MB |
+| 3 Gibit | {{ 3.0 | times: page.value }} MB |
+| 5 Gibit | {{ 5.0 | times: page.value }} MB |
+| 10 Gibit | {{ 10.0 | times: page.value }} MB |
+| 100 Gibit | {{ 100.0 | times: page.value }} MB |
 
 ## Megabyte to Gibibit Convertion Table :
 
 | Megabyte (MB) | Gibibit (Gibit) |
 | ---- | ---- |
-| 0.01 MB | {{ 0.01 | divided_by: page.value | round: 12 }} Gibit |
-| 0.1 MB | {{ 0.1 | divided_by: page.value | round: 12 }} Gibit |
-| 0.25 MB | {{ 0.25 | divided_by: page.value | round: 12 }} Gibit |
-| 0.5 MB | {{ 0.50 | divided_by: page.value | round: 12 }} Gibit |
-| 1 MB | {{ 1.0 | divided_by: page.value | round: 12 }} Gibit |
-| 2 MB | {{ 2.0 | divided_by: page.value | round: 12 }} Gibit |
-| 3 MB | {{ 3.0 | divided_by: page.value | round: 12 }} Gibit |
-| 5 MB | {{ 5.0 | divided_by: page.value | round: 12 }} Gibit |
-| 10 MB | {{ 10.0 | divided_by: page.value | round: 12 }} Gibit |
-| 100 MB | {{ 100.0 | divided_by: page.value | round: 12 }} Gibit |
+| 0.01 MB | {{ 0.01 | divided_by: page.value }} Gibit |
+| 0.1 MB | {{ 0.1 | divided_by: page.value }} Gibit |
+| 0.25 MB | {{ 0.25 | divided_by: page.value }} Gibit |
+| 0.5 MB | {{ 0.50 | divided_by: page.value }} Gibit |
+| 1 MB | {{ 1.0 | divided_by: page.value }} Gibit |
+| 2 MB | {{ 2.0 | divided_by: page.value }} Gibit |
+| 3 MB | {{ 3.0 | divided_by: page.value }} Gibit |
+| 5 MB | {{ 5.0 | divided_by: page.value }} Gibit |
+| 10 MB | {{ 10.0 | divided_by: page.value }} Gibit |
+| 100 MB | {{ 100.0 | divided_by: page.value }} Gibit |
 
 
 <script>
