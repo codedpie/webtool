@@ -13,7 +13,7 @@ title: QR Code Generator
   </div>
   <div class="qr_output">
     <a id="qr_link">
-      <img id="qr_img" width="200" height="200" loading="lazy" src="/assets/other/qrcode.svg"/>
+      <img id="qr_img" width="200" height="200" src="/assets/other/qrcode.svg"/>
     </a>
   </div>
 </div>
