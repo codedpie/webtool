@@ -10,7 +10,7 @@ categories: Pebibit
 Using Data storage Conversion tool you can converte **Pebibit (Pibit)** to **Pebibit (Pibit)** or vice versa. Check 1 Pebibit and Gigabyte value given below and also check quick conversion tables.
 
 ## Formula
-*Multiply the Digital Storage value by {{page.value}}*
+`Multiply the Digital Storage value by {{page.value}}`
 
 ## Pebibit
 *Symbol:* **Pibit**

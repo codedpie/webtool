@@ -10,7 +10,7 @@ categories: Tebibit
 Using Data storage Conversion tool you can converte **Tebibit (Tebit)** to **Tebibit (Tebit)** or vice versa. Check 1 Tebibit and Mebibyte value given below and also check quick conversion tables.
 
 ## Formula
-*Multiply the Digital Storage value by {{page.value}}*
+`Multiply the Digital Storage value by {{page.value}}`
 
 ## Tebibit
 *Symbol:* **Tebit**

@@ -10,7 +10,7 @@ categories: Gigabit
 Using Data storage Conversion tool you can converte **Gigabit (gb)** to **Gigabit (gb)** or vice versa. Check 1 Gigabit and Byte value given below and also check quick conversion tables.
 
 ## Formula
-*Multiply the Digital Storage value by {{page.value}}*
+`Multiply the Digital Storage value by {{page.value}}`
 
 ## Gigabit
 *Symbol:* **gb**

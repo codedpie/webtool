@@ -10,7 +10,7 @@ categories: Mebibit
 Using Data storage Conversion tool you can converte **Mebibit (Mibit)** to **Mebibit (Mibit)** or vice versa. Check 1 Mebibit and Megabit value given below and also check quick conversion tables.
 
 ## Formula
-*Multiply the Digital Storage value by {{page.value}}*
+`Multiply the Digital Storage value by {{page.value}}`
 
 ## Mebibit
 *Symbol:* **Mibit**

@@ -10,7 +10,7 @@ categories: Petabit
 Using Data storage Conversion tool you can converte **Petabit (pb)** to **Petabit (pb)** or vice versa. Check 1 Petabit and Gigabit value given below and also check quick conversion tables.
 
 ## Formula
-*Multiply the Digital Storage value by {{page.value}}*
+`Multiply the Digital Storage value by {{page.value}}`
 
 ## Petabit
 *Symbol:* **pb**

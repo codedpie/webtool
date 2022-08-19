@@ -41,7 +41,7 @@
 /* for desktops */
 @media (min-width: 1024px) {
   article {
-    width: 50%;
+    width: 60%;
     margin: 50px auto;
   }
   nav a{

@@ -10,7 +10,7 @@ categories: Terabyte
 Using Data storage Conversion tool you can converte **Terabyte (TB)** to **Terabyte (TB)** or vice versa. Check 1 Terabyte and Byte value given below and also check quick conversion tables.
 
 ## Formula
-*Multiply the Digital Storage value by {{page.value}}*
+`Multiply the Digital Storage value by {{page.value}}`
 
 ## Terabyte
 *Symbol:* **TB**

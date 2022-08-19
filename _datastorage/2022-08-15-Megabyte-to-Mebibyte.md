@@ -10,7 +10,7 @@ categories: Megabyte
 Using Data storage Conversion tool you can converte **Megabyte (MB)** to **Megabyte (MB)** or vice versa. Check 1 Megabyte and Mebibyte value given below and also check quick conversion tables.
 
 ## Formula
-*Divide the Digital Storage value by {{page.value}}*
+`Divide the Digital Storage value by {{page.value}}`
 
 ## Megabyte
 *Symbol:* **MB**

@@ -10,7 +10,7 @@ categories: bit
 Using Data storage Conversion tool you can converte **bit (b)** to **bit (b)** or vice versa. Check 1 bit and Terabyte value given below and also check quick conversion tables.
 
 ## Formula
-*Divide the Digital Storage value by {{page.value}}*
+`Divide the Digital Storage value by {{page.value}}`
 
 ## bit
 *Symbol:* **b**

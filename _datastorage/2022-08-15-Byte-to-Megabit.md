@@ -10,7 +10,7 @@ categories: Byte
 Using Data storage Conversion tool you can converte **Byte (B)** to **Byte (B)** or vice versa. Check 1 Byte and Megabit value given below and also check quick conversion tables.
 
 ## Formula
-*Divide the Digital Storage value by {{page.value}}*
+`Divide the Digital Storage value by {{page.value}}`
 
 ## Byte
 *Symbol:* **B**

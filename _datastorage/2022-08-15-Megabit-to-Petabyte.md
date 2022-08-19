@@ -10,7 +10,7 @@ categories: Megabit
 Using Data storage Conversion tool you can converte **Megabit (mb)** to **Megabit (mb)** or vice versa. Check 1 Megabit and Petabyte value given below and also check quick conversion tables.
 
 ## Formula
-*Divide the Digital Storage value by {{page.value}}*
+`Divide the Digital Storage value by {{page.value}}`
 
 ## Megabit
 *Symbol:* **mb**

@@ -10,7 +10,7 @@ categories: Pebibyte
 Using Data storage Conversion tool you can converte **Pebibyte (PiB)** to **Pebibyte (PiB)** or vice versa. Check 1 Pebibyte and Terabyte value given below and also check quick conversion tables.
 
 ## Formula
-*Multiply the Digital Storage value by {{page.value}}*
+`Multiply the Digital Storage value by {{page.value}}`
 
 ## Pebibyte
 *Symbol:* **PiB**

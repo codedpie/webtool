@@ -10,7 +10,7 @@ categories: Gibibit
 Using Data storage Conversion tool you can converte **Gibibit (Gibit)** to **Gibibit (Gibit)** or vice versa. Check 1 Gibibit and Terabyte value given below and also check quick conversion tables.
 
 ## Formula
-*Divide the Digital Storage value by {{page.value}}*
+`Divide the Digital Storage value by {{page.value}}`
 
 ## Gibibit
 *Symbol:* **Gibit**

@@ -10,7 +10,7 @@ categories: Kilobyte
 Using Data storage Conversion tool you can converte **Kilobyte (KB)** to **Kilobyte (KB)** or vice versa. Check 1 Kilobyte and Kilobit value given below and also check quick conversion tables.
 
 ## Formula
-*Multiply the Digital Storage value by {{page.value}}*
+`Multiply the Digital Storage value by {{page.value}}`
 
 ## Kilobyte
 *Symbol:* **KB**

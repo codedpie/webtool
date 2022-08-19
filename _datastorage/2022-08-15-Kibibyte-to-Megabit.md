@@ -10,7 +10,7 @@ categories: Kibibyte
 Using Data storage Conversion tool you can converte **Kibibyte (KiB)** to **Kibibyte (KiB)** or vice versa. Check 1 Kibibyte and Megabit value given below and also check quick conversion tables.
 
 ## Formula
-*Divide the Digital Storage value by {{page.value}}*
+`Divide the Digital Storage value by {{page.value}}`
 
 ## Kibibyte
 *Symbol:* **KiB**

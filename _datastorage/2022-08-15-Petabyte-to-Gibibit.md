@@ -10,7 +10,7 @@ categories: Petabyte
 Using Data storage Conversion tool you can converte **Petabyte (PB)** to **Petabyte (PB)** or vice versa. Check 1 Petabyte and Gibibit value given below and also check quick conversion tables.
 
 ## Formula
-*Multiply the Digital Storage value by {{page.value}}*
+`Multiply the Digital Storage value by {{page.value}}`
 
 ## Petabyte
 *Symbol:* **PB**

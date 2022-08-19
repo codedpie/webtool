@@ -10,7 +10,7 @@ categories: Terabit
 Using Data storage Conversion tool you can converte **Terabit (tb)** to **Terabit (tb)** or vice versa. Check 1 Terabit and Tebibyte value given below and also check quick conversion tables.
 
 ## Formula
-*Divide the Digital Storage value by {{page.value}}*
+`Divide the Digital Storage value by {{page.value}}`
 
 ## Terabit
 *Symbol:* **tb**

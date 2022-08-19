@@ -10,7 +10,7 @@ categories: Tebibyte
 Using Data storage Conversion tool you can converte **Tebibyte (TiB)** to **Tebibyte (TiB)** or vice versa. Check 1 Tebibyte and Kibibit value given below and also check quick conversion tables.
 
 ## Formula
-*Multiply the Digital Storage value by {{page.value}}*
+`Multiply the Digital Storage value by {{page.value}}`
 
 ## Tebibyte
 *Symbol:* **TiB**

@@ -10,7 +10,7 @@ categories: Gibibyte
 Using Data storage Conversion tool you can converte **Gibibyte (GiB)** to **Gibibyte (GiB)** or vice versa. Check 1 Gibibyte and Tebibyte value given below and also check quick conversion tables.
 
 ## Formula
-*Divide the Digital Storage value by {{page.value}}*
+`Divide the Digital Storage value by {{page.value}}`
 
 ## Gibibyte
 *Symbol:* **GiB**

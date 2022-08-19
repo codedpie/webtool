@@ -10,7 +10,7 @@ categories: Kibibit
 Using Data storage Conversion tool you can converte **Kibibit (Kibit)** to **Kibibit (Kibit)** or vice versa. Check 1 Kibibit and Mebibit value given below and also check quick conversion tables.
 
 ## Formula
-*Divide the Digital Storage value by {{page.value}}*
+`Divide the Digital Storage value by {{page.value}}`
 
 ## Kibibit
 *Symbol:* **Kibit**

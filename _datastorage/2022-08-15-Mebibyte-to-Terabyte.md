@@ -10,7 +10,7 @@ categories: Mebibyte
 Using Data storage Conversion tool you can converte **Mebibyte (MiB)** to **Mebibyte (MiB)** or vice versa. Check 1 Mebibyte and Terabyte value given below and also check quick conversion tables.
 
 ## Formula
-*Divide the Digital Storage value by {{page.value}}*
+`Divide the Digital Storage value by {{page.value}}`
 
 ## Mebibyte
 *Symbol:* **MiB**

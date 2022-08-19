@@ -10,7 +10,7 @@ categories: Gigabyte
 Using Data storage Conversion tool you can converte **Gigabyte (GB)** to **Gigabyte (GB)** or vice versa. Check 1 Gigabyte and Terabyte value given below and also check quick conversion tables.
 
 ## Formula
-*Divide the Digital Storage value by {{page.value}}*
+`Divide the Digital Storage value by {{page.value}}`
 
 ## Gigabyte
 *Symbol:* **GB**
