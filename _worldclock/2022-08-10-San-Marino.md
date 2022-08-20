@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in San Marino, San Marino
+heading: San Marino
 name: San Marino
 iso: SM
 timezone: Europe/San_Marino

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Podgorica, Montenegro
+heading: Podgorica
 name: Montenegro
 iso: ME
 timezone: Europe/Podgorica

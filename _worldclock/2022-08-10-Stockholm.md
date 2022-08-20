@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Stockholm, Sweden
+heading: Stockholm
 name: Sweden
 iso: SE
 timezone: Europe/Stockholm

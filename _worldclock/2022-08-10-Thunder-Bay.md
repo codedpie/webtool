@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Thunder Bay, Canada
+heading: Thunder Bay
 name: Canada
 iso: CA
 timezone: America/Thunder_Bay

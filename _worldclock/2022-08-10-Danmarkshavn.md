@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Danmarkshavn, Greenland
+heading: Danmarkshavn
 name: Greenland
 iso: GL
 timezone: America/Danmarkshavn

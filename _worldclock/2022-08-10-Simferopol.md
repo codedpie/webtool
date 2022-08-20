@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Simferopol, Ukraine
+heading: Simferopol
 name: Ukraine
 iso: UA
 timezone: Europe/Simferopol

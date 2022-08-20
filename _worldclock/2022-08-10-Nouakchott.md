@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Africa
 state: Africa
 title: Current Time in Nouakchott, Mauritania
+heading: Nouakchott
 name: Mauritania
 iso: MR
 timezone: Africa/Nouakchott

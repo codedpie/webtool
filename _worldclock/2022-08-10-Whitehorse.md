@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Whitehorse, Canada
+heading: Whitehorse
 name: Canada
 iso: CA
 timezone: America/Whitehorse

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Indian
 state: Indian
 title: Current Time in Kerguelen, French Southern Territories
+heading: Kerguelen
 name: French Southern Territories
 iso: TF
 timezone: Indian/Kerguelen

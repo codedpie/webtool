@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Africa
 state: Africa
 title: Current Time in Casablanca, Morocco
+heading: Casablanca
 name: Morocco
 iso: MA
 timezone: Africa/Casablanca

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Pyongyang, Korea, Democratic People's Republic of
+heading: Pyongyang
 name: Korea, Democratic People's Republic of
 iso: KP
 timezone: Asia/Pyongyang

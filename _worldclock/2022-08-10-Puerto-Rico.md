@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Puerto Rico, Puerto Rico
+heading: Puerto Rico
 name: Puerto Rico
 iso: PR
 timezone: America/Puerto_Rico

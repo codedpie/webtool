@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Pontianak, Indonesia
+heading: Pontianak
 name: Indonesia
 iso: ID
 timezone: Asia/Pontianak

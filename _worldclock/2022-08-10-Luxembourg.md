@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Luxembourg, Luxembourg
+heading: Luxembourg
 name: Luxembourg
 iso: LU
 timezone: Europe/Luxembourg

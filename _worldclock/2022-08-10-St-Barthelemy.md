@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in St Barthelemy, Saint Barthélemy
+heading: St Barthelemy
 name: Saint Barthélemy
 iso: BL
 timezone: America/St_Barthelemy

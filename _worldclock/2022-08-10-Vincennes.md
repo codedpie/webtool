@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Indiana
 state: Indiana
 title: Current Time in Vincennes, United States
+heading: Vincennes
 name: United States
 iso: US
 timezone: America/Indiana/Vincennes

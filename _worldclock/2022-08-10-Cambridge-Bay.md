@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Cambridge Bay, Canada
+heading: Cambridge Bay
 name: Canada
 iso: CA
 timezone: America/Cambridge_Bay

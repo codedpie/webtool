@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Campo Grande, Brazil
+heading: Campo Grande
 name: Brazil
 iso: BR
 timezone: America/Campo_Grande

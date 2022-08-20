@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Isle of Man, Isle of Man
+heading: Isle of Man
 name: Isle of Man
 iso: IM
 timezone: Europe/Isle_of_Man

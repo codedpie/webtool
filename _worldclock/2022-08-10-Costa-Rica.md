@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Costa Rica, Costa Rica
+heading: Costa Rica
 name: Costa Rica
 iso: CR
 timezone: America/Costa_Rica

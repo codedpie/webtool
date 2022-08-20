@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Montserrat, Montserrat
+heading: Montserrat
 name: Montserrat
 iso: MS
 timezone: America/Montserrat

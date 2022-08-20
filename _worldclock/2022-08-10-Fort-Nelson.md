@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Fort Nelson, Canada
+heading: Fort Nelson
 name: Canada
 iso: CA
 timezone: America/Fort_Nelson

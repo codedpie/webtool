@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Blanc-Sablon, Canada
+heading: Blanc-Sablon
 name: Canada
 iso: CA
 timezone: America/Blanc-Sablon

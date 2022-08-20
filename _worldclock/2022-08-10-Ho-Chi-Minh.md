@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Ho Chi Minh, Viet Nam
+heading: Ho Chi Minh
 name: Viet Nam
 iso: VN
 timezone: Asia/Ho_Chi_Minh

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Antarctica
 state: Antarctica
 title: Current Time in Macquarie, Australia
+heading: Macquarie
 name: Australia
 iso: AU
 timezone: Antarctica/Macquarie

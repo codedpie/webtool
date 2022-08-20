@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Mexico City, Mexico
+heading: Mexico City
 name: Mexico
 iso: MX
 timezone: America/Mexico_City

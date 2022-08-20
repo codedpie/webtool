@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Amsterdam, Netherlands
+heading: Amsterdam
 name: Netherlands
 iso: NL
 timezone: Europe/Amsterdam

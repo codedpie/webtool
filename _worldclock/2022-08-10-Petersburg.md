@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Indiana
 state: Indiana
 title: Current Time in Petersburg, United States
+heading: Petersburg
 name: United States
 iso: US
 timezone: America/Indiana/Petersburg

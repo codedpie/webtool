@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Africa
 state: Africa
 title: Current Time in Ouagadougou, Burkina Faso
+heading: Ouagadougou
 name: Burkina Faso
 iso: BF
 timezone: Africa/Ouagadougou

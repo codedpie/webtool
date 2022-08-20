@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Kentucky
 state: Kentucky
 title: Current Time in Monticello, United States
+heading: Monticello
 name: United States
 iso: US
 timezone: America/Kentucky/Monticello

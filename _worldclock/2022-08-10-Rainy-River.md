@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Rainy River, Canada
+heading: Rainy River
 name: Canada
 iso: CA
 timezone: America/Rainy_River

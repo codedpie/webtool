@@ -7,5 +7,5 @@ title: World Clock
 </style>
 {% include 8citytime.html %}
 <div class="allLocation">{% for wc in site.worldclock %}
-  <a href="{{wc.url}}">{{wc.title}}</a>{% endfor %}
+  <a href="{{wc.url}}">{{wc.heading}}</a>{% endfor %}
 </div>

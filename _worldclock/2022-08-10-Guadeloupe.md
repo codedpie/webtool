@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Guadeloupe, Guadeloupe
+heading: Guadeloupe
 name: Guadeloupe
 iso: GP
 timezone: America/Guadeloupe

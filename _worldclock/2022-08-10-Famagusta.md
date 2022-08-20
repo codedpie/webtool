@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Famagusta, Cyprus
+heading: Famagusta
 name: Cyprus
 iso: CY
 timezone: Asia/Famagusta

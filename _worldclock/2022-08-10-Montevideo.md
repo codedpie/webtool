@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Montevideo, Uruguay
+heading: Montevideo
 name: Uruguay
 iso: UY
 timezone: America/Montevideo

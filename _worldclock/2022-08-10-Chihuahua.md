@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Chihuahua, Mexico
+heading: Chihuahua
 name: Mexico
 iso: MX
 timezone: America/Chihuahua

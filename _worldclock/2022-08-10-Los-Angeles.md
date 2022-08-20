@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Los Angeles, United States
+heading: Los Angeles
 name: United States
 iso: US
 timezone: America/Los_Angeles

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Samarkand, Uzbekistan
+heading: Samarkand
 name: Uzbekistan
 iso: UZ
 timezone: Asia/Samarkand

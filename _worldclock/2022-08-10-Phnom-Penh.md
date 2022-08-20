@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Phnom Penh, Cambodia
+heading: Phnom Penh
 name: Cambodia
 iso: KH
 timezone: Asia/Phnom_Penh

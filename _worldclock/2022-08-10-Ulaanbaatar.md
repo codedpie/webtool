@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Ulaanbaatar, Mongolia
+heading: Ulaanbaatar
 name: Mongolia
 iso: MN
 timezone: Asia/Ulaanbaatar

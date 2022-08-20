@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Pacific
 state: Pacific
 title: Current Time in Galapagos, Ecuador
+heading: Galapagos
 name: Ecuador
 iso: EC
 timezone: Pacific/Galapagos

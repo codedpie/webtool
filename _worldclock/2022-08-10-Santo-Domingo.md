@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Santo Domingo, Dominican Republic
+heading: Santo Domingo
 name: Dominican Republic
 iso: DO
 timezone: America/Santo_Domingo

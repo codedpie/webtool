@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Africa
 state: Africa
 title: Current Time in Porto-Novo, Benin
+heading: Porto-Novo
 name: Benin
 iso: BJ
 timezone: Africa/Porto-Novo

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Astrakhan, Russian Federation
+heading: Astrakhan
 name: Russian Federation
 iso: RU
 timezone: Europe/Astrakhan

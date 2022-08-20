@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Port-au-Prince, Haiti
+heading: Port-au-Prince
 name: Haiti
 iso: HT
 timezone: America/Port-au-Prince

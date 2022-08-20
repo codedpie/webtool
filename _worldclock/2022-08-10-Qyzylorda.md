@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Qyzylorda, Kazakhstan
+heading: Qyzylorda
 name: Kazakhstan
 iso: KZ
 timezone: Asia/Qyzylorda

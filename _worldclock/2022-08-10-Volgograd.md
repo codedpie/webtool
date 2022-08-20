@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Volgograd, Russian Federation
+heading: Volgograd
 name: Russian Federation
 iso: RU
 timezone: Europe/Volgograd

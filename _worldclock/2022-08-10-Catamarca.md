@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Argentina
 state: Argentina
 title: Current Time in Catamarca, Argentina
+heading: Catamarca
 name: Argentina
 iso: AR
 timezone: America/Argentina/Catamarca

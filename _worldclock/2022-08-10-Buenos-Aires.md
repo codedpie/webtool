@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Argentina
 state: Argentina
 title: Current Time in Buenos Aires, Argentina
+heading: Buenos Aires
 name: Argentina
 iso: AR
 timezone: America/Argentina/Buenos_Aires

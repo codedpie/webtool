@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Port of Spain, Trinidad and Tobago
+heading: Port of Spain
 name: Trinidad and Tobago
 iso: TT
 timezone: America/Port_of_Spain

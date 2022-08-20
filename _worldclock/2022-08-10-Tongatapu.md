@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Pacific
 state: Pacific
 title: Current Time in Tongatapu, Tonga
+heading: Tongatapu
 name: Tonga
 iso: TO
 timezone: Pacific/Tongatapu

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Kamchatka, Russian Federation
+heading: Kamchatka
 name: Russian Federation
 iso: RU
 timezone: Asia/Kamchatka

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Bucharest, Romania
+heading: Bucharest
 name: Romania
 iso: RO
 timezone: Europe/Bucharest

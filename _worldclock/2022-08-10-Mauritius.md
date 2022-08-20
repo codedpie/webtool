@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Indian
 state: Indian
 title: Current Time in Mauritius, Mauritius
+heading: Mauritius
 name: Mauritius
 iso: MU
 timezone: Indian/Mauritius

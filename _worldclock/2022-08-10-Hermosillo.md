@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Hermosillo, Mexico
+heading: Hermosillo
 name: Mexico
 iso: MX
 timezone: America/Hermosillo

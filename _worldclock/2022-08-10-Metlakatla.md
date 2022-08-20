@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Metlakatla, United States
+heading: Metlakatla
 name: United States
 iso: US
 timezone: America/Metlakatla

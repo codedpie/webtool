@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Africa
 state: Africa
 title: Current Time in Lubumbashi, Congo, the Democratic Republic of the
+heading: Lubumbashi
 name: Congo, the Democratic Republic of the
 iso: CD
 timezone: Africa/Lubumbashi

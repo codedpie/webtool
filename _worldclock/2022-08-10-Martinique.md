@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Martinique, Martinique
+heading: Martinique
 name: Martinique
 iso: MQ
 timezone: America/Martinique

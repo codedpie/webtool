@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Pacific
 state: Pacific
 title: Current Time in Guadalcanal, Solomon Islands
+heading: Guadalcanal
 name: Solomon Islands
 iso: SB
 timezone: Pacific/Guadalcanal

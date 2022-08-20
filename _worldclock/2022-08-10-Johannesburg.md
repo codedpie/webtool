@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Africa
 state: Africa
 title: Current Time in Johannesburg, South Africa
+heading: Johannesburg
 name: South Africa
 iso: ZA
 timezone: Africa/Johannesburg

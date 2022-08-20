@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Porto Velho, Brazil
+heading: Porto Velho
 name: Brazil
 iso: BR
 timezone: America/Porto_Velho

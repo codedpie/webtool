@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Novosibirsk, Russian Federation
+heading: Novosibirsk
 name: Russian Federation
 iso: RU
 timezone: Asia/Novosibirsk

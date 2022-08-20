@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Arctic
 state: Arctic
 title: Current Time in Longyearbyen, Svalbard and Jan Mayen
+heading: Longyearbyen
 name: Svalbard and Jan Mayen
 iso: SJ
 timezone: Arctic/Longyearbyen

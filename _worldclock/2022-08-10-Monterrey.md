@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Monterrey, Mexico
+heading: Monterrey
 name: Mexico
 iso: MX
 timezone: America/Monterrey

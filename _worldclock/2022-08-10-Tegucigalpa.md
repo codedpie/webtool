@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Tegucigalpa, Honduras
+heading: Tegucigalpa
 name: Honduras
 iso: HN
 timezone: America/Tegucigalpa

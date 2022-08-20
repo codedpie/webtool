@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Africa
 state: Africa
 title: Current Time in Mogadishu, Somalia
+heading: Mogadishu
 name: Somalia
 iso: SO
 timezone: Africa/Mogadishu

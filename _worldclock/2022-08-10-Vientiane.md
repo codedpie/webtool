@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Vientiane, Lao People's Democratic Republic
+heading: Vientiane
 name: Lao People's Democratic Republic
 iso: LA
 timezone: Asia/Vientiane

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Atlantic
 state: Atlantic
 title: Current Time in Reykjavik, Iceland
+heading: Reykjavik
 name: Iceland
 iso: IS
 timezone: Atlantic/Reykjavik

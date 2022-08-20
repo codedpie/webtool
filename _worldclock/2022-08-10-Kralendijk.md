@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Kralendijk, Bonaire, Sint Eustatius and Saba
+heading: Kralendijk
 name: Bonaire, Sint Eustatius and Saba
 iso: BQ
 timezone: America/Kralendijk

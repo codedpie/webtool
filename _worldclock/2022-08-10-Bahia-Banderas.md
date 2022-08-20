@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Bahia Banderas, Mexico
+heading: Bahia Banderas
 name: Mexico
 iso: MX
 timezone: America/Bahia_Banderas

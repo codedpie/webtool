@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Pacific
 state: Pacific
 title: Current Time in Kwajalein, Marshall Islands
+heading: Kwajalein
 name: Marshall Islands
 iso: MH
 timezone: Pacific/Kwajalein

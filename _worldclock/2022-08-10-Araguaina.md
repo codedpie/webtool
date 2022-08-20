@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Araguaina, Brazil
+heading: Araguaina
 name: Brazil
 iso: BR
 timezone: America/Araguaina

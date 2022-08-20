@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Lower Princes, Sint Maarten (Dutch part)
+heading: Lower Princes
 name: Sint Maarten (Dutch part)
 iso: SX
 timezone: America/Lower_Princes

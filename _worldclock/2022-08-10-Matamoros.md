@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Matamoros, Mexico
+heading: Matamoros
 name: Mexico
 iso: MX
 timezone: America/Matamoros

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Australia
 state: Australia
 title: Current Time in Melbourne, Australia
+heading: Melbourne
 name: Australia
 iso: AU
 timezone: Australia/Melbourne

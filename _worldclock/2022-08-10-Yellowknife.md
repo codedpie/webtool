@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Yellowknife, Canada
+heading: Yellowknife
 name: Canada
 iso: CA
 timezone: America/Yellowknife

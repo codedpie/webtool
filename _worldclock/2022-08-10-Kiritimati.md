@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Pacific
 state: Pacific
 title: Current Time in Kiritimati, Kiribati
+heading: Kiritimati
 name: Kiribati
 iso: KI
 timezone: Pacific/Kiritimati

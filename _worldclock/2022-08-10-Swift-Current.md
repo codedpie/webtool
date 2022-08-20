@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Swift Current, Canada
+heading: Swift Current
 name: Canada
 iso: CA
 timezone: America/Swift_Current

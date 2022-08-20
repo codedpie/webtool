@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Zaporozhye, Ukraine
+heading: Zaporozhye
 name: Ukraine
 iso: UA
 timezone: Europe/Zaporozhye

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Indian
 state: Indian
 title: Current Time in Christmas, Christmas Island
+heading: Christmas
 name: Christmas Island
 iso: CX
 timezone: Indian/Christmas

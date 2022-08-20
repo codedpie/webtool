@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Pangnirtung, Canada
+heading: Pangnirtung
 name: Canada
 iso: CA
 timezone: America/Pangnirtung

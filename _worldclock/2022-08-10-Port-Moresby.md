@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Pacific
 state: Pacific
 title: Current Time in Port Moresby, Papua New Guinea
+heading: Port Moresby
 name: Papua New Guinea
 iso: PG
 timezone: Pacific/Port_Moresby

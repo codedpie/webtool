@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Argentina
 state: Argentina
 title: Current Time in Rio Gallegos, Argentina
+heading: Rio Gallegos
 name: Argentina
 iso: AR
 timezone: America/Argentina/Rio_Gallegos

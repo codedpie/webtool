@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in St Vincent, Saint Vincent and the Grenadines
+heading: St Vincent
 name: Saint Vincent and the Grenadines
 iso: VC
 timezone: America/St_Vincent

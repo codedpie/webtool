@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Bratislava, Slovakia
+heading: Bratislava
 name: Slovakia
 iso: SK
 timezone: Europe/Bratislava

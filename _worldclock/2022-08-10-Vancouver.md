@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Vancouver, Canada
+heading: Vancouver
 name: Canada
 iso: CA
 timezone: America/Vancouver

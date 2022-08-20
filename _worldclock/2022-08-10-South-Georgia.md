@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Atlantic
 state: Atlantic
 title: Current Time in South Georgia, South Georgia and the South Sandwich Islands
+heading: South Georgia
 name: South Georgia and the South Sandwich Islands
 iso: GS
 timezone: Atlantic/South_Georgia

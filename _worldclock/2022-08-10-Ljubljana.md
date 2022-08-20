@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Ljubljana, Slovenia
+heading: Ljubljana
 name: Slovenia
 iso: SI
 timezone: Europe/Ljubljana

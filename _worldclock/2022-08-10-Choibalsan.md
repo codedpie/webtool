@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Choibalsan, Mongolia
+heading: Choibalsan
 name: Mongolia
 iso: MN
 timezone: Asia/Choibalsan

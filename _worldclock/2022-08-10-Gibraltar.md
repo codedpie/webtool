@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Gibraltar, Gibraltar
+heading: Gibraltar
 name: Gibraltar
 iso: GI
 timezone: Europe/Gibraltar

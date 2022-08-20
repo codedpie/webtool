@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Scoresbysund, Greenland
+heading: Scoresbysund
 name: Greenland
 iso: GL
 timezone: America/Scoresbysund

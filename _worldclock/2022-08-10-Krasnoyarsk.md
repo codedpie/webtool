@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Krasnoyarsk, Russian Federation
+heading: Krasnoyarsk
 name: Russian Federation
 iso: RU
 timezone: Asia/Krasnoyarsk

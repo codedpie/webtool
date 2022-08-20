@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Jerusalem, Israel
+heading: Jerusalem
 name: Israel
 iso: IL
 timezone: Asia/Jerusalem

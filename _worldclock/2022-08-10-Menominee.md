@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Menominee, United States
+heading: Menominee
 name: United States
 iso: US
 timezone: America/Menominee

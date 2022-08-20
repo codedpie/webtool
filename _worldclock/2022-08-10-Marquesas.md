@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Pacific
 state: Pacific
 title: Current Time in Marquesas, French Polynesia
+heading: Marquesas
 name: French Polynesia
 iso: PF
 timezone: Pacific/Marquesas

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Anchorage, United States
+heading: Anchorage
 name: United States
 iso: US
 timezone: America/Anchorage

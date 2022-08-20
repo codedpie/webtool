@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Fortaleza, Brazil
+heading: Fortaleza
 name: Brazil
 iso: BR
 timezone: America/Fortaleza

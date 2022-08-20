@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Africa
 state: Africa
 title: Current Time in Bujumbura, Burundi
+heading: Bujumbura
 name: Burundi
 iso: BI
 timezone: Africa/Bujumbura

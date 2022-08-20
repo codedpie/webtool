@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Kentucky
 state: Kentucky
 title: Current Time in Louisville, United States
+heading: Louisville
 name: United States
 iso: US
 timezone: America/Kentucky/Louisville

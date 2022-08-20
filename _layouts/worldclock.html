@@ -9,7 +9,7 @@
 <body>
   {% include header.html %}
   <article>
-    <h1>Now Time In {{page.title | replace: '_',' '}} ({{page.name}})</h1>
+    <h1>{{page.title | replace: '_',' '}}</h1>
     <div class="timeBox">
       <h2 id="timenow" class="timenow"></h2>
       <p id="ft"></p>
@@ -18,7 +18,7 @@
       <table>
         <tr>
           <td>City</td>
-          <td>{{page.title | replace: '_',' '}}</td>
+          <td>{{page.heading | replace: '_',' '}}</td>
         </tr>
         <tr>
           <td>Country</td>

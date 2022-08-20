@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Pacific
 state: Pacific
 title: Current Time in Bougainville, Papua New Guinea
+heading: Bougainville
 name: Papua New Guinea
 iso: PG
 timezone: Pacific/Bougainville

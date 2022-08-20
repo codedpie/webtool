@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Kathmandu, Nepal
+heading: Kathmandu
 name: Nepal
 iso: NP
 timezone: Asia/Kathmandu

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Kuala Lumpur, Malaysia
+heading: Kuala Lumpur
 name: Malaysia
 iso: MY
 timezone: Asia/Kuala_Lumpur

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Srednekolymsk, Russian Federation
+heading: Srednekolymsk
 name: Russian Federation
 iso: RU
 timezone: Asia/Srednekolymsk

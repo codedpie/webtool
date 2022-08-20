@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Atlantic
 state: Atlantic
 title: Current Time in Cape Verde, Cape Verde
+heading: Cape Verde
 name: Cape Verde
 iso: CV
 timezone: Atlantic/Cape_Verde

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Kaliningrad, Russian Federation
+heading: Kaliningrad
 name: Russian Federation
 iso: RU
 timezone: Europe/Kaliningrad

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Australia
 state: Australia
 title: Current Time in Broken Hill, Australia
+heading: Broken Hill
 name: Australia
 iso: AU
 timezone: Australia/Broken_Hill

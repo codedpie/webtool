@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Vladivostok, Russian Federation
+heading: Vladivostok
 name: Russian Federation
 iso: RU
 timezone: Asia/Vladivostok

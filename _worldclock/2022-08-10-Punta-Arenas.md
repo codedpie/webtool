@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Punta Arenas, Chile
+heading: Punta Arenas
 name: Chile
 iso: CL
 timezone: America/Punta_Arenas

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Rankin Inlet, Canada
+heading: Rankin Inlet
 name: Canada
 iso: CA
 timezone: America/Rankin_Inlet

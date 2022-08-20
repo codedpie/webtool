@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in El Salvador, El Salvador
+heading: El Salvador
 name: El Salvador
 iso: SV
 timezone: America/El_Salvador

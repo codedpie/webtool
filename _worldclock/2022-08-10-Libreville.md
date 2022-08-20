@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Africa
 state: Africa
 title: Current Time in Libreville, Gabon
+heading: Libreville
 name: Gabon
 iso: GA
 timezone: Africa/Libreville

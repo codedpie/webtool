@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Rio Branco, Brazil
+heading: Rio Branco
 name: Brazil
 iso: BR
 timezone: America/Rio_Branco

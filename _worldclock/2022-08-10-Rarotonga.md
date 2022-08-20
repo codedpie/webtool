@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Pacific
 state: Pacific
 title: Current Time in Rarotonga, Cook Islands
+heading: Rarotonga
 name: Cook Islands
 iso: CK
 timezone: Pacific/Rarotonga

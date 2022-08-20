@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Yekaterinburg, Russian Federation
+heading: Yekaterinburg
 name: Russian Federation
 iso: RU
 timezone: Asia/Yekaterinburg

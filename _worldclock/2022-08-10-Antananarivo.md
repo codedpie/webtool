@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Indian
 state: Indian
 title: Current Time in Antananarivo, Madagascar
+heading: Antananarivo
 name: Madagascar
 iso: MG
 timezone: Indian/Antananarivo

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Mariehamn, Åland Islands
+heading: Mariehamn
 name: Åland Islands
 iso: AX
 timezone: Europe/Mariehamn

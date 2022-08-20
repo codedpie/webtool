@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Copenhagen, Denmark
+heading: Copenhagen
 name: Denmark
 iso: DK
 timezone: Europe/Copenhagen

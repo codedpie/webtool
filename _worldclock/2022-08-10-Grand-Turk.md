@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Grand Turk, Turks and Caicos Islands
+heading: Grand Turk
 name: Turks and Caicos Islands
 iso: TC
 timezone: America/Grand_Turk

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Africa
 state: Africa
 title: Current Time in Brazzaville, Congo
+heading: Brazzaville
 name: Congo
 iso: CG
 timezone: Africa/Brazzaville

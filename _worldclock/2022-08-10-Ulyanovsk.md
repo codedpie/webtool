@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Europe
 state: Europe
 title: Current Time in Ulyanovsk, Russian Federation
+heading: Ulyanovsk
 name: Russian Federation
 iso: RU
 timezone: Europe/Ulyanovsk

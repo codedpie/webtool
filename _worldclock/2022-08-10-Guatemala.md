@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Guatemala, Guatemala
+heading: Guatemala
 name: Guatemala
 iso: GT
 timezone: America/Guatemala

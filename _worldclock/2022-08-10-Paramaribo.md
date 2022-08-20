@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Paramaribo, Suriname
+heading: Paramaribo
 name: Suriname
 iso: SR
 timezone: America/Paramaribo

@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Singapore, Singapore
+heading: Singapore
 name: Singapore
 iso: SG
 timezone: Asia/Singapore

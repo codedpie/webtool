@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: America
 state: America
 title: Current Time in Dawson Creek, Canada
+heading: Dawson Creek
 name: Canada
 iso: CA
 timezone: America/Dawson_Creek

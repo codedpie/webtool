@@ -1,8 +1,8 @@
 ---
 layout: worldclock
-tags: Asia
 state: Asia
 title: Current Time in Novokuznetsk, Russian Federation
+heading: Novokuznetsk
 name: Russian Federation
 iso: RU
 timezone: Asia/Novokuznetsk
