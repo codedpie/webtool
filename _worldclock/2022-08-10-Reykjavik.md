@@ -2,10 +2,11 @@
 layout: worldclock
 tags: Atlantic
 state: Atlantic
-title: Reykjavik
+title: Current Time in Reykjavik, Iceland
 name: Iceland
 iso: IS
 timezone: Atlantic/Reykjavik
 utc: UTC -00:16
+description: Current Time in Reykjavik, Iceland [Live], Atlantic. Live update now time in Reykjavik, timezone Atlantic/Reykjavik, UTC -00:16, Country ISO code & Current Local Time.
 ---
 

@@ -2,10 +2,11 @@
 layout: worldclock
 tags: America
 state: America
-title: El Salvador
+title: Current Time in El Salvador, El Salvador
 name: El Salvador
 iso: SV
 timezone: America/El_Salvador
 utc: UTC -05:56
+description: Current Time in El Salvador, El Salvador [Live], America. Live update now time in El Salvador, timezone America/El_Salvador, UTC -05:56, Country ISO code & Current Local Time.
 ---
 

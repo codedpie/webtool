@@ -2,10 +2,11 @@
 layout: worldclock
 tags: Africa
 state: Africa
-title: Libreville
+title: Current Time in Libreville, Gabon
 name: Gabon
 iso: GA
 timezone: Africa/Libreville
 utc: UTC +00:13
+description: Current Time in Libreville, Gabon [Live], Africa. Live update now time in Libreville, timezone Africa/Libreville, UTC +00:13, Country ISO code & Current Local Time.
 ---
 

@@ -2,10 +2,11 @@
 layout: worldclock
 tags: Argentina
 state: Argentina
-title: Catamarca
+title: Current Time in Catamarca, Argentina
 name: Argentina
 iso: AR
 timezone: America/Argentina/Catamarca
 utc: UTC -04:23
+description: Current Time in Catamarca, Argentina [Live], Argentina. Live update now time in Catamarca, timezone America/Argentina/Catamarca, UTC -04:23, Country ISO code & Current Local Time.
 ---
 
