@@ -31,6 +31,4 @@ collections:
   worldclock:
     output: true
     permalink: worldclock/:title
-  time:
-    output: true
-    permalink: time/:title
+    
