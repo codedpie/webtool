@@ -1,6 +1,7 @@
 ---
 layout: post
 title: QR Code Generator
+short: QR Code
 ---
 <style>
   .qrcode_generator{text-align:center}.qrcode_generator span{display:block;margin-bottom:30px;color:rgba(0,0,0,.5)}.qr_output{display:grid;margin-top:40px;place-items:center}.qr_output img{padding:12px;border-radius:5px;background:rgba(99,102,241,.1)}

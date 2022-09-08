@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Data Storage Converter
+short: Storage
 permalink: datastorage
 ---
 <link rel="stylesheet" href="/assets/css/datastorage.css"/>

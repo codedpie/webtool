@@ -1,6 +1,7 @@
 ---
 layout: post
 title: World Clock
+short: World Clock
 ---
 <style>
   .allLocation{display:grid;gap:10px 0;grid-template-columns:1fr 1fr 1fr}@media (max-width:640px){.allLocation{grid-template-columns:1fr 1fr}}

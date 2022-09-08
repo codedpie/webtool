@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Youtube Thumbnail Downloader
+short: Youtube Thumbnail
 ---
 <style>
   #outImg,.input-box{text-align:center}.yt-thumb{margin:40px 0}#valid p{color:var(--light);margin:20px 0;font-weight:500;padding:7px 10px;display:inline-block;border-radius:5px;background:rgba(255,0,0,.7)}#outImg{margin-top:40px;grid-gap:20px}#outImg>div{display:grid;place-items:center}#outImg label{font-size:20px;font-weight:500}#outImg img{margin:20px auto}

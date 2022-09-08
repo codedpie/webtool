@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Word Counter
+short: Word Counter
 ---
 
 <style>
