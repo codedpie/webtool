@@ -3,17 +3,27 @@
 <head>
   {% include head.html %}
   <style>
-    .timenow {padding: 6px;font-size: 3rem;font-weight: 600;border-radius:2px;display:inline-block;background:rgb(248 250 252)}#ft {font-weight:bold}article h1{text-align:left;font-weight:600}article h2{margin:0;padding:0;border:1px solid rgba(0, 0, 0, 0.1)}p#ft{font-size:1.2rem}#std{padding:8px;font-weight:500;display:inline-block;background:rgb(248 250 252)}
+    .timenow {padding: 6px;font-size: 3rem;font-weight: 600;border-radius:2px;display:inline-block;background:rgb(248 250 252)}#ft {font-weight:bold}article h1{text-align:left;font-weight:600}p#ft{font-size:1.2rem}#std{padding:8px;font-weight:500;display:inline-block;background:rgb(248 250 252)}.flagHeading{display:flex;justify-content:space-between;background:lightblue;padding:5px;margin:20px 0}.flagHeading img{background:rgba(0, 0, 0, 0.1);padding:4px}.nowTime{border:1px solid rgba(0, 0, 0, 0.1);padding:5px;display:flex;justify-content:space-between;align-items:center}@media(max-width:786px){.nowTime{flex-direction:column}}.liveClock{}
   </style>
+  <script src="/assets/js/analogclock.js" defer></script>
 </head>
 <body>
   {% include header.html %}
   <article>
-    <h1>{{page.title | replace: '_',' '}}</h1>
+    <div class="flagHeading">
+      <h1>{{page.title | replace: '_',' '}}</h1>
+      <img width="100" height="auto" src="/assets/flag/4x3/{{ page.iso | downcase }}.svg" alt="{{page.name}}" />
+    </div>
     <div class="timeBox">
-      <h2 id="timenow" class="timenow"></h2>
-      <p id="ft"></p>
-      <p>Anno Domini (AD)</p>
+      <div class="nowTime">
+        <div>
+          <h2 id="timenow" class="timenow"></h2>
+          <p id="ft"></p>
+        </div>
+        <div class="liveClock">
+         <canvas/>
+        </div>
+      </div>
       <h3 id="std"></h3>
       <table>
         <tr>
