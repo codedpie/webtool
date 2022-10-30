@@ -5,3 +5,4 @@ _site
 vendor
 assets/app
 assets/tools
+app.js
